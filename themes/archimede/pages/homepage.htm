@@ -33,40 +33,6 @@ is_hidden = 0
 							</a>
 							<a href="#" class="reply">Reply</a>
 						</li>
-						<li class="has-children">
-							{% partial 'author-vcard/default'%}
-
-							<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugiten, sed quia
-								consequuntur magni dolores eos qui ratione voluptatem sequi en lod nesciunt. Neque porro
-								quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit en lorem ipsum der.
-							</p>
-
-							<a href="#" class="post-add-icon inline-items">
-								<i class="fa fa-heart-o" aria-hidden="true"></i>
-								<span>5</span>
-							</a>
-							<a href="#" class="reply">Reply</a>
-
-							<ul class="children">
-								{% for i in 0..2 %}
-								<li>
-								{% partial 'author-vcard/default'%}
-
-									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
-									<a href="#" class="post-add-icon inline-items">
-										<i class="fa fa-heart-o" aria-hidden="true"></i>
-										<span>2</span>
-									</a>
-									<a href="#" class="reply">Reply</a>
-								</li>
-								{% endfor %}
-							</ul>
-
-						</li>
-
-
-
 						<li>
 							{% partial 'author-vcard/default'%}
 
@@ -110,14 +76,7 @@ is_hidden = 0
 						<div class="post-thumb">
 							<img src="{{'assets/img/post-photo6.jpg'|theme}}" alt="photo">
 						</div>
-
-						<ul class="children single-children">
-							<li>
-								{% partial 'author-vcard/default'%}
-
-								<p>Here’s the first photo of our incredible photoshoot from yesterday. If you like it please say so and tel me what you wanna see next!</p>
-							</li>
-						</ul>
+ 
 
 						<div class="post-additional-info inline-items">
 
