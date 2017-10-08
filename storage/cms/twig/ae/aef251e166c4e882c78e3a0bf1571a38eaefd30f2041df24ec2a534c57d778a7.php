@@ -19,8 +19,8 @@ class __TwigTemplate_0fffc3f295c5355328488a71c2759f017b3c6094f2275e4e31dde04dd92
         echo "<link
     href=\"";
         // line 2
-        echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter(array(0 => "assets/Bootstrap/dist/css/bootstrap-reboot.css", 1 => "assets/Bootstrap/dist/css/bootstrap.css", 2 => "assets/Bootstrap/dist/css/bootstrap-grid.css", 3 => "assets/css/theme-styles.css", 4 => "assets/css/blocks.css", 5 => "assets/css/fonts.css", 6 => "assets/css/jquery.mCustomScrollbar.min.css", 7 => "assets/css/mediaelement-playlist-plugin.min.css", 8 => "assets/css/mediaelementplayer.css", 9 => "assets/css/magnific-popup.css", 10 => "~/modules/system/assets/css/framework.extras.css"));
-        // line 14
+        echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter(array(0 => "assets/Bootstrap/dist/css/bootstrap-reboot.css", 1 => "assets/Bootstrap/dist/css/bootstrap.css", 2 => "assets/Bootstrap/dist/css/bootstrap-grid.css", 3 => "assets/css/theme-styles.css", 4 => "assets/css/blocks.css", 5 => "assets/css/bootstrap-select.css", 6 => "assets/css/fonts.css", 7 => "assets/css/jquery.mCustomScrollbar.min.css", 8 => "assets/css/mediaelement-playlist-plugin.min.css", 9 => "assets/css/mediaelementplayer.css", 10 => "assets/css/magnific-popup.css", 11 => "~/modules/system/assets/css/framework.extras.css"));
+        // line 15
         echo "\"
     rel=\"stylesheet\">
     
@@ -57,7 +57,7 @@ class __TwigTemplate_0fffc3f295c5355328488a71c2759f017b3c6094f2275e4e31dde04dd92
 
     public function getDebugInfo()
     {
-        return array (  24 => 14,  22 => 2,  19 => 1,);
+        return array (  24 => 15,  22 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -77,6 +77,7 @@ class __TwigTemplate_0fffc3f295c5355328488a71c2759f017b3c6094f2275e4e31dde04dd92
         'assets/Bootstrap/dist/css/bootstrap-grid.css',
         'assets/css/theme-styles.css',
         'assets/css/blocks.css',
+        'assets/css/bootstrap-select.css',
         'assets/css/fonts.css',
         'assets/css/jquery.mCustomScrollbar.min.css',
         'assets/css/mediaelement-playlist-plugin.min.css',

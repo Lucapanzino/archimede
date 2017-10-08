@@ -1,4 +1,4 @@
-1507485945a:1:{s:9:"style.htm";a:5:{s:8:"fileName";s:9:"style.htm";s:7:"content";s:1483:"
+1507487610a:1:{s:9:"style.htm";a:5:{s:8:"fileName";s:9:"style.htm";s:7:"content";s:1526:"
 <link
     href="{{ [
         'assets/Bootstrap/dist/css/bootstrap-reboot.css',
@@ -6,6 +6,7 @@
         'assets/Bootstrap/dist/css/bootstrap-grid.css',
         'assets/css/theme-styles.css',
         'assets/css/blocks.css',
+        'assets/css/bootstrap-select.css',
         'assets/css/fonts.css',
         'assets/css/jquery.mCustomScrollbar.min.css',
         'assets/css/mediaelement-playlist-plugin.min.css',
@@ -33,13 +34,14 @@
 	<link rel="stylesheet" type="text/css" href="css/mediaelementplayer.css">
 
 	<!-- Lightbox popup script-->
-	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">";s:5:"mtime";i:1507198542;s:6:"markup";s:1482:"<link
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">";s:5:"mtime";i:1507486399;s:6:"markup";s:1525:"<link
     href="{{ [
         'assets/Bootstrap/dist/css/bootstrap-reboot.css',
         'assets/Bootstrap/dist/css/bootstrap.css',
         'assets/Bootstrap/dist/css/bootstrap-grid.css',
         'assets/css/theme-styles.css',
         'assets/css/blocks.css',
+        'assets/css/bootstrap-select.css',
         'assets/css/fonts.css',
         'assets/css/jquery.mCustomScrollbar.min.css',
         'assets/css/mediaelement-playlist-plugin.min.css',

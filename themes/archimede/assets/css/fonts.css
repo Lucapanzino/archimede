@@ -2084,7 +2084,7 @@
   .btn-control > i {
     padding-top: 6px;}
     
-    #load-more-button>i {
+    .btn-more>i {
        padding-top: 12px;
        font-size: 1.25em;
    }
