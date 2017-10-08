@@ -32,7 +32,7 @@ class __TwigTemplate_68d7efbb5cc9701a742104a2f71d8691682330c0c916f236a20c606ef36
         // line 7
         echo "\t\t
 
-\t\t<div class=\"more\"><i class=\"fa fa-ellipsis-h\" aria-hidden=\"true\"></i>
+\t\t<div class=\"more\"></i>
 \t\t\t<ul class=\"more-dropdown\">
 \t\t\t\t<li>
 \t\t\t\t\t<a href=\"#\">Edit Post</a>
@@ -130,7 +130,7 @@ class __TwigTemplate_68d7efbb5cc9701a742104a2f71d8691682330c0c916f236a20c606ef36
 \t\t{% partial 'author-date/default'%}
 \t\t
 
-\t\t<div class=\"more\"><i class=\"fa fa-ellipsis-h\" aria-hidden=\"true\"></i>
+\t\t<div class=\"more\"></i>
 \t\t\t<ul class=\"more-dropdown\">
 \t\t\t\t<li>
 \t\t\t\t\t<a href=\"#\">Edit Post</a>

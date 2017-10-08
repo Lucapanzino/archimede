@@ -1,4 +1,4 @@
-1507484529a:1:{s:22:"entry-post/default.htm";a:5:{s:8:"fileName";s:22:"entry-post/default.htm";s:7:"content";s:1315:"<article class="hentry post">
+1507484831a:1:{s:22:"entry-post/default.htm";a:5:{s:8:"fileName";s:22:"entry-post/default.htm";s:7:"content";s:1268:"<article class="hentry post">
 
 	<div class="post__author author vcard inline-items">
 		<img src="{{'assets/img/author-page.jpg'|theme}}" alt="author">
@@ -6,7 +6,7 @@
 		{% partial 'author-date/default'%}
 		
 
-		<div class="more"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+		<div class="more"></i>
 			<ul class="more-dropdown">
 				<li>
 					<a href="#">Edit Post</a>
@@ -53,7 +53,7 @@
 		{% partial 'comment-buttons/default'%}
 	
 
-</article>";s:5:"mtime";i:1507223162;s:6:"markup";s:1315:"<article class="hentry post">
+</article>";s:5:"mtime";i:1507484203;s:6:"markup";s:1268:"<article class="hentry post">
 
 	<div class="post__author author vcard inline-items">
 		<img src="{{'assets/img/author-page.jpg'|theme}}" alt="author">
@@ -61,7 +61,7 @@
 		{% partial 'author-date/default'%}
 		
 
-		<div class="more"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+		<div class="more"></i>
 			<ul class="more-dropdown">
 				<li>
 					<a href="#">Edit Post</a>
