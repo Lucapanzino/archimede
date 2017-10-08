@@ -31,7 +31,7 @@ class __TwigTemplate_7fca83c9285d747637614deaff5cb11421e44e08d33bf9614d4798133e5
 \t</a>
 
 \t<a href=\"#\" class=\"btn btn-control\">
-\t\t<i class=\"fa fa-share\" aria-hidden=\"true\"></i>
+\t\t<i class=\"fa fa-pencil\" data-toggle=\"tooltip\" data-placement=\"right\" data-original-title=\"contribuisci\" aria-hidden=\"true\"></i> 
 \t</a>
 
 </div>";
@@ -72,7 +72,7 @@ class __TwigTemplate_7fca83c9285d747637614deaff5cb11421e44e08d33bf9614d4798133e5
 \t</a>
 
 \t<a href=\"#\" class=\"btn btn-control\">
-\t\t<i class=\"fa fa-share\" aria-hidden=\"true\"></i>
+\t\t<i class=\"fa fa-pencil\" data-toggle=\"tooltip\" data-placement=\"right\" data-original-title=\"contribuisci\" aria-hidden=\"true\"></i> 
 \t</a>
 
 </div>", "/Applications/MAMP/htdocs/archimede_copy/themes/archimede/partials/comment-buttons/default.htm", "");

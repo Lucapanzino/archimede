@@ -1,22 +1,20 @@
-1507485209a:1:{s:27:"friends-armonic/default.htm";a:5:{s:8:"fileName";s:27:"friends-armonic/default.htm";s:7:"content";s:286:"<div class="comments-shared">
+1507485723a:1:{s:27:"friends-armonic/default.htm";a:5:{s:8:"fileName";s:27:"friends-armonic/default.htm";s:7:"content";s:350:"<div class="comments-shared">
 	<a href="#" class="post-add-icon inline-items">
 		<i class="fa fa-comment-o" aria-hidden="true"></i>
 		<span>17</span>
 	</a>
 
 	<a href="#" class="post-add-icon inline-items">
-		<i class="fa fa-share" aria-hidden="true"></i>
-		<span>24</span>
+		<i class="fa fa-pencil" data-toggle="tooltip" data-placement="right" data-original-title="contribuisci" aria-hidden="true"></i> 
 	</a>
 </div>
-";s:5:"mtime";i:1507208034;s:6:"markup";s:285:"<div class="comments-shared">
+";s:5:"mtime";i:1507485111;s:6:"markup";s:349:"<div class="comments-shared">
 	<a href="#" class="post-add-icon inline-items">
 		<i class="fa fa-comment-o" aria-hidden="true"></i>
 		<span>17</span>
 	</a>
 
 	<a href="#" class="post-add-icon inline-items">
-		<i class="fa fa-share" aria-hidden="true"></i>
-		<span>24</span>
+		<i class="fa fa-pencil" data-toggle="tooltip" data-placement="right" data-original-title="contribuisci" aria-hidden="true"></i> 
 	</a>
 </div>";s:4:"code";N;}}
