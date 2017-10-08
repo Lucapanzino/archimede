@@ -1,0 +1,371 @@
+1507483219a:1:{s:12:"homepage.htm";a:9:{s:8:"fileName";s:12:"homepage.htm";s:7:"content";s:5367:"title = "homepage"
+url = "/"
+layout = "default"
+is_hidden = 0
+==
+
+{% partial 'top-header/default'%}
+
+<div class="container">
+	<div class="row">
+
+		<!-- Main Content -->
+
+		<div class="col-xl-6 push-xl-3 col-lg-12 push-lg-0 col-md-12 col-sm-12 col-xs-12">
+			<div id="newsfeed-items-grid">
+
+				<div class="ui-block">
+					{% partial 'entry-post/default'%}
+				</div>
+ 
+
+				<div class="ui-block">
+					{% partial 'entry-post/default'%}
+
+					<ul class="comments-list">
+						<li>
+							{% partial 'author-vcard/default'%}
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium der doloremque laudantium.</p>
+
+							<a href="#" class="post-add-icon inline-items">
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+								<span>8</span>
+							</a>
+							<a href="#" class="reply">Reply</a>
+						</li>
+						<li class="has-children">
+							{% partial 'author-vcard/default'%}
+
+							<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugiten, sed quia
+								consequuntur magni dolores eos qui ratione voluptatem sequi en lod nesciunt. Neque porro
+								quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit en lorem ipsum der.
+							</p>
+
+							<a href="#" class="post-add-icon inline-items">
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+								<span>5</span>
+							</a>
+							<a href="#" class="reply">Reply</a>
+
+							<ul class="children">
+								{% for i in 0..2 %}
+								<li>
+								{% partial 'author-vcard/default'%}
+
+									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+									<a href="#" class="post-add-icon inline-items">
+										<i class="fa fa-heart-o" aria-hidden="true"></i>
+										<span>2</span>
+									</a>
+									<a href="#" class="reply">Reply</a>
+								</li>
+								{% endfor %}
+							</ul>
+
+						</li>
+
+
+
+						<li>
+							{% partial 'author-vcard/default'%}
+
+							<p>Dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+
+							<a href="#" class="post-add-icon inline-items">
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+								<span>7</span>
+							</a>
+							<a href="#" class="reply">Reply</a>
+
+						</li>
+					</ul>
+
+					<a href="#" class="more-comments">View more comments <span>+</span></a>
+					<form class="comment-form inline-items">
+
+						<div class="post__author author vcard inline-items">
+							<img src="{{'assets/img/author-page.jpg'|theme}}" alt="author">
+						</div>
+
+						<div class="form-group with-icon-right ">
+							<textarea class="form-control" placeholder=""  ></textarea>
+							<div class="add-options-message">
+								<a href="#" class="options-message" data-toggle="modal" data-target="#update-header-photo">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<span class="material-input"></span></div>
+
+					</form>
+				</div>
+
+				<div class="ui-block">
+					<article class="hentry post has-post-thumbnail shared-photo">
+
+						{% partial 'author-vcard/default'%}
+
+						<p>Hi! Everyone should check out these amazing photographs that my friend shot the past week. Here’s one of them...leave a kind comment!</p>
+
+						<div class="post-thumb">
+							<img src="{{'assets/img/post-photo6.jpg'|theme}}" alt="photo">
+						</div>
+
+						<ul class="children single-children">
+							<li>
+								{% partial 'author-vcard/default'%}
+
+								<p>Here’s the first photo of our incredible photoshoot from yesterday. If you like it please say so and tel me what you wanna see next!</p>
+							</li>
+						</ul>
+
+						<div class="post-additional-info inline-items">
+
+							<a href="#" class="post-add-icon inline-items">
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+								<span>15</span>
+							</a>
+
+							{% partial 'friends-armonic/default'%}
+							<div class="names-people-likes">
+								<a href="#">Diana</a>, <a href="#">Nicholas</a> and
+								<br>13 more liked this
+							</div>
+
+							<div class="comments-shared">
+								<a href="#" class="post-add-icon inline-items">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+									<span>0</span>
+								</a>
+
+								<a href="#" class="post-add-icon inline-items">
+										<i class="fa fa-share" aria-hidden="true"></i>
+									<span>16</span>
+								</a>
+							</div>
+
+						</div>
+
+						<div class="control-block-button post-control-button">
+
+							<a href="#" class="btn btn-control">
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</a>
+
+							<a href="#" class="btn btn-control">
+								<i class="fa fa-comments" aria-hidden="true"></i>
+							</a>
+
+							<a href="#" class="btn btn-control">
+								<i class="fa fa-share" aria-hidden="true"></i>
+							</a>
+
+						</div>
+
+					</article>
+				</div>
+
+			</div>
+
+			<a id="load-more-button" href="#" class="btn btn-control btn-more" data-load-link="items-to-load.html" data-container="newsfeed-items-grid"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+		</div>
+
+		<!-- ... end Main Content -->
+		
+		<!-- left Content -->
+		
+		{% partial 'left-content/default'%}
+		
+		<!-- ... end Right Content -->
+
+		<!-- left Content -->
+		
+		{% partial 'right-content/default'%}
+		
+		<!-- ... end Right Content -->
+
+	</div>
+</div>    
+
+";s:5:"mtime";i:1507224320;s:6:"markup";s:5295:"{% partial 'top-header/default'%}
+
+<div class="container">
+	<div class="row">
+
+		<!-- Main Content -->
+
+		<div class="col-xl-6 push-xl-3 col-lg-12 push-lg-0 col-md-12 col-sm-12 col-xs-12">
+			<div id="newsfeed-items-grid">
+
+				<div class="ui-block">
+					{% partial 'entry-post/default'%}
+				</div>
+ 
+
+				<div class="ui-block">
+					{% partial 'entry-post/default'%}
+
+					<ul class="comments-list">
+						<li>
+							{% partial 'author-vcard/default'%}
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium der doloremque laudantium.</p>
+
+							<a href="#" class="post-add-icon inline-items">
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+								<span>8</span>
+							</a>
+							<a href="#" class="reply">Reply</a>
+						</li>
+						<li class="has-children">
+							{% partial 'author-vcard/default'%}
+
+							<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugiten, sed quia
+								consequuntur magni dolores eos qui ratione voluptatem sequi en lod nesciunt. Neque porro
+								quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit en lorem ipsum der.
+							</p>
+
+							<a href="#" class="post-add-icon inline-items">
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+								<span>5</span>
+							</a>
+							<a href="#" class="reply">Reply</a>
+
+							<ul class="children">
+								{% for i in 0..2 %}
+								<li>
+								{% partial 'author-vcard/default'%}
+
+									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+									<a href="#" class="post-add-icon inline-items">
+										<i class="fa fa-heart-o" aria-hidden="true"></i>
+										<span>2</span>
+									</a>
+									<a href="#" class="reply">Reply</a>
+								</li>
+								{% endfor %}
+							</ul>
+
+						</li>
+
+
+
+						<li>
+							{% partial 'author-vcard/default'%}
+
+							<p>Dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+
+							<a href="#" class="post-add-icon inline-items">
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+								<span>7</span>
+							</a>
+							<a href="#" class="reply">Reply</a>
+
+						</li>
+					</ul>
+
+					<a href="#" class="more-comments">View more comments <span>+</span></a>
+					<form class="comment-form inline-items">
+
+						<div class="post__author author vcard inline-items">
+							<img src="{{'assets/img/author-page.jpg'|theme}}" alt="author">
+						</div>
+
+						<div class="form-group with-icon-right ">
+							<textarea class="form-control" placeholder=""  ></textarea>
+							<div class="add-options-message">
+								<a href="#" class="options-message" data-toggle="modal" data-target="#update-header-photo">
+									<i class="fa fa-camera"></i>
+								</a>
+							</div>
+							<span class="material-input"></span></div>
+
+					</form>
+				</div>
+
+				<div class="ui-block">
+					<article class="hentry post has-post-thumbnail shared-photo">
+
+						{% partial 'author-vcard/default'%}
+
+						<p>Hi! Everyone should check out these amazing photographs that my friend shot the past week. Here’s one of them...leave a kind comment!</p>
+
+						<div class="post-thumb">
+							<img src="{{'assets/img/post-photo6.jpg'|theme}}" alt="photo">
+						</div>
+
+						<ul class="children single-children">
+							<li>
+								{% partial 'author-vcard/default'%}
+
+								<p>Here’s the first photo of our incredible photoshoot from yesterday. If you like it please say so and tel me what you wanna see next!</p>
+							</li>
+						</ul>
+
+						<div class="post-additional-info inline-items">
+
+							<a href="#" class="post-add-icon inline-items">
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+								<span>15</span>
+							</a>
+
+							{% partial 'friends-armonic/default'%}
+							<div class="names-people-likes">
+								<a href="#">Diana</a>, <a href="#">Nicholas</a> and
+								<br>13 more liked this
+							</div>
+
+							<div class="comments-shared">
+								<a href="#" class="post-add-icon inline-items">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+									<span>0</span>
+								</a>
+
+								<a href="#" class="post-add-icon inline-items">
+										<i class="fa fa-share" aria-hidden="true"></i>
+									<span>16</span>
+								</a>
+							</div>
+
+						</div>
+
+						<div class="control-block-button post-control-button">
+
+							<a href="#" class="btn btn-control">
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</a>
+
+							<a href="#" class="btn btn-control">
+								<i class="fa fa-comments" aria-hidden="true"></i>
+							</a>
+
+							<a href="#" class="btn btn-control">
+								<i class="fa fa-share" aria-hidden="true"></i>
+							</a>
+
+						</div>
+
+					</article>
+				</div>
+
+			</div>
+
+			<a id="load-more-button" href="#" class="btn btn-control btn-more" data-load-link="items-to-load.html" data-container="newsfeed-items-grid"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+		</div>
+
+		<!-- ... end Main Content -->
+		
+		<!-- left Content -->
+		
+		{% partial 'left-content/default'%}
+		
+		<!-- ... end Right Content -->
+
+		<!-- left Content -->
+		
+		{% partial 'right-content/default'%}
+		
+		<!-- ... end Right Content -->
+
+	</div>
+</div>";s:4:"code";N;s:5:"title";s:8:"homepage";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

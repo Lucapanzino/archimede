@@ -1,0 +1,45 @@
+1507483219a:1:{s:24:"author-vcard/default.htm";a:5:{s:8:"fileName";s:24:"author-vcard/default.htm";s:7:"content";s:491:"<div class="post__author author vcard inline-items">
+	<img src="{{'assets/img/author-page.jpg'|theme}}" alt="author">
+
+	{% partial 'author-date/default'%}
+
+	<div class="more"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+		<ul class="more-dropdown">
+			<li>
+				<a href="#">Edit Post</a>
+			</li>
+			<li>
+				<a href="#">Delete Post</a>
+			</li>
+			<li>
+				<a href="#">Turn Off Notifications</a>
+			</li>
+			<li>
+				<a href="#">Select as Featured</a>
+			</li>
+		</ul>
+	</div>
+
+</div>";s:5:"mtime";i:1507209752;s:6:"markup";s:491:"<div class="post__author author vcard inline-items">
+	<img src="{{'assets/img/author-page.jpg'|theme}}" alt="author">
+
+	{% partial 'author-date/default'%}
+
+	<div class="more"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+		<ul class="more-dropdown">
+			<li>
+				<a href="#">Edit Post</a>
+			</li>
+			<li>
+				<a href="#">Delete Post</a>
+			</li>
+			<li>
+				<a href="#">Turn Off Notifications</a>
+			</li>
+			<li>
+				<a href="#">Select as Featured</a>
+			</li>
+		</ul>
+	</div>
+
+</div>";s:4:"code";N;}}

@@ -1,0 +1,303 @@
+1507380804a:1:{s:24:"left-content/default.htm";a:5:{s:8:"fileName";s:24:"left-content/default.htm";s:7:"content";s:4215:"<!-- Left Sidebar -->
+
+<div class="col-xl-3 pull-xl-6 col-lg-6 pull-lg-0 col-md-6 col-sm-12 col-xs-12">
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">Profile Intro</h6>
+		</div>
+		<div class="ui-block-content">
+			<ul class="widget w-personal-info item-block">
+				{% for i in 0..2 %}
+				<li>
+					<span class="title">About Me:</span>
+					<span class="text">Hi, I’m James, I’m 36 and I work as a Digital Designer for the  “Daydreams” Agency in Pier 56.</span>
+				</li>
+				{% endfor %}
+			</ul>
+
+			<div class="widget w-socials">
+				<h6 class="title">Other Social Networks:</h6>
+				<a href="#" class="social-item bg-facebook">
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+					Facebook
+				</a>
+				<a href="#" class="social-item bg-twitter">
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					Twitter
+				</a>
+				<a href="#" class="social-item bg-dribbble">
+					<i class="fa fa-dribbble" aria-hidden="true"></i>
+					Dribbble
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">James’s Badges</h6>
+		</div>
+		<div class="ui-block-content">
+
+			<ul class="widget w-badges">
+				<li>
+					<a href="24-CommunityBadges.html">
+						<img src="{{'assets/img/badge1.png'|theme}}" alt="author">
+						<div class="label-avatar bg-primary">2</div>
+					</a>
+				</li>
+				{% for i in 0..10 %}
+				<li>
+					<a href="24-CommunityBadges.html">
+						<img src="{{'assets/img/badge4.png'|theme}}" alt="author">
+					</a>
+				</li>
+				{% endfor %}
+				
+			</ul>
+
+		</div>
+	</div>
+
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">My Spotify Playlist</h6>
+		</div>
+
+		<ol class="widget w-playlist">
+			{% for i in 0..4 %}
+			<li class="js-open-popup" data-popup-target=".playlist-popup">
+				<div class="playlist-thumb">
+					<img src="img/playlist6.jpg" alt="thumb-composition">
+					<div class="overlay"></div>
+					<a href="#" class="play-icon">
+						<svg class="olymp-music-play-icon-big"><use xlink:href="icons/icons-music.svg#olymp-music-play-icon-big"></use></svg>
+					</a>
+				</div>
+
+				<div class="composition">
+					<a href="#" class="composition-name">The Past Starts Slow...</a>
+					<a href="#" class="composition-author">System of a Revenge</a>
+				</div>
+
+				<div class="composition-time">
+					<time class="published" datetime="2017-03-24T18:18">3:22</time>
+					<div class="more"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+						<ul class="more-dropdown">
+							<li>
+								<a href="#">Add Song to Player</a>
+							</li>
+							<li>
+								<a href="#">Add Playlist to Player</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</li>
+ 			{% endfor %}
+		</ol>
+	</div>
+
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">Twitter Feed</h6>
+		</div>
+
+		<ul class="widget w-twitter">
+			{% for i in 0..2 %}
+			<li class="twitter-item">
+				<div class="author-folder">
+					<img src="img/twitter-avatar1.png" alt="avatar">
+					<div class="author">
+						<a href="#" class="author-name">Space Cowboy</a>
+						<a href="#" class="group">@james_spiegelOK</a>
+					</div>
+				</div>
+				<p>Tomorrow with the agency we will run 5 km for charity. Come and give us your support! <a href="#" class="link-post">#Daydream5K</a></p>
+				<span class="post__date">
+					<time class="published" datetime="2017-03-24T18:18">
+						2 hours ago
+					</time>
+				</span>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">Last Videos</h6>
+		</div>
+		<div class="ui-block-content">
+			<ul class="widget w-last-video">
+				{% for i in 0..1 %}
+				<li>
+					<a href="https://vimeo.com/ondemand/viewfromabluemoon4k/147865858" class="play-video play-video--small">
+						<i class="fa fa-play"></i>
+					</a>
+					<img src="{{'assets/img/video5.jpg'|theme}}" alt="video">
+					<div class="video-content">
+						<div class="title">System of a Revenge - Hypnotize...</div>
+						<time class="published" datetime="2017-03-24T18:18">3:25</time>
+					</div>
+					<div class="overlay"></div>
+				</li>
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- ... end Left Sidebar -->";s:5:"mtime";i:1507225956;s:6:"markup";s:4215:"<!-- Left Sidebar -->
+
+<div class="col-xl-3 pull-xl-6 col-lg-6 pull-lg-0 col-md-6 col-sm-12 col-xs-12">
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">Profile Intro</h6>
+		</div>
+		<div class="ui-block-content">
+			<ul class="widget w-personal-info item-block">
+				{% for i in 0..2 %}
+				<li>
+					<span class="title">About Me:</span>
+					<span class="text">Hi, I’m James, I’m 36 and I work as a Digital Designer for the  “Daydreams” Agency in Pier 56.</span>
+				</li>
+				{% endfor %}
+			</ul>
+
+			<div class="widget w-socials">
+				<h6 class="title">Other Social Networks:</h6>
+				<a href="#" class="social-item bg-facebook">
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+					Facebook
+				</a>
+				<a href="#" class="social-item bg-twitter">
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					Twitter
+				</a>
+				<a href="#" class="social-item bg-dribbble">
+					<i class="fa fa-dribbble" aria-hidden="true"></i>
+					Dribbble
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">James’s Badges</h6>
+		</div>
+		<div class="ui-block-content">
+
+			<ul class="widget w-badges">
+				<li>
+					<a href="24-CommunityBadges.html">
+						<img src="{{'assets/img/badge1.png'|theme}}" alt="author">
+						<div class="label-avatar bg-primary">2</div>
+					</a>
+				</li>
+				{% for i in 0..10 %}
+				<li>
+					<a href="24-CommunityBadges.html">
+						<img src="{{'assets/img/badge4.png'|theme}}" alt="author">
+					</a>
+				</li>
+				{% endfor %}
+				
+			</ul>
+
+		</div>
+	</div>
+
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">My Spotify Playlist</h6>
+		</div>
+
+		<ol class="widget w-playlist">
+			{% for i in 0..4 %}
+			<li class="js-open-popup" data-popup-target=".playlist-popup">
+				<div class="playlist-thumb">
+					<img src="img/playlist6.jpg" alt="thumb-composition">
+					<div class="overlay"></div>
+					<a href="#" class="play-icon">
+						<svg class="olymp-music-play-icon-big"><use xlink:href="icons/icons-music.svg#olymp-music-play-icon-big"></use></svg>
+					</a>
+				</div>
+
+				<div class="composition">
+					<a href="#" class="composition-name">The Past Starts Slow...</a>
+					<a href="#" class="composition-author">System of a Revenge</a>
+				</div>
+
+				<div class="composition-time">
+					<time class="published" datetime="2017-03-24T18:18">3:22</time>
+					<div class="more"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+						<ul class="more-dropdown">
+							<li>
+								<a href="#">Add Song to Player</a>
+							</li>
+							<li>
+								<a href="#">Add Playlist to Player</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</li>
+ 			{% endfor %}
+		</ol>
+	</div>
+
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">Twitter Feed</h6>
+		</div>
+
+		<ul class="widget w-twitter">
+			{% for i in 0..2 %}
+			<li class="twitter-item">
+				<div class="author-folder">
+					<img src="img/twitter-avatar1.png" alt="avatar">
+					<div class="author">
+						<a href="#" class="author-name">Space Cowboy</a>
+						<a href="#" class="group">@james_spiegelOK</a>
+					</div>
+				</div>
+				<p>Tomorrow with the agency we will run 5 km for charity. Come and give us your support! <a href="#" class="link-post">#Daydream5K</a></p>
+				<span class="post__date">
+					<time class="published" datetime="2017-03-24T18:18">
+						2 hours ago
+					</time>
+				</span>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">Last Videos</h6>
+		</div>
+		<div class="ui-block-content">
+			<ul class="widget w-last-video">
+				{% for i in 0..1 %}
+				<li>
+					<a href="https://vimeo.com/ondemand/viewfromabluemoon4k/147865858" class="play-video play-video--small">
+						<i class="fa fa-play"></i>
+					</a>
+					<img src="{{'assets/img/video5.jpg'|theme}}" alt="video">
+					<div class="video-content">
+						<div class="title">System of a Revenge - Hypnotize...</div>
+						<time class="published" datetime="2017-03-24T18:18">3:25</time>
+					</div>
+					<div class="overlay"></div>
+				</li>
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- ... end Left Sidebar -->";s:4:"code";N;}}

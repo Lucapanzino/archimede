@@ -1,0 +1,15 @@
+1507483219a:1:{s:10:"header.htm";a:5:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:171:"{% partial 'fixed-sidebar/default'%}
+
+{% partial 'fixed-sidebar-responsive/default'%}
+
+{% partial 'page-header/default'%}
+
+{% partial 'page-header-responsive/default'%}
+
+ ";s:5:"mtime";i:1507207578;s:6:"markup";s:168:"{% partial 'fixed-sidebar/default'%}
+
+{% partial 'fixed-sidebar-responsive/default'%}
+
+{% partial 'page-header/default'%}
+
+{% partial 'page-header-responsive/default'%}";s:4:"code";N;}}

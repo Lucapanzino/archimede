@@ -1,0 +1,15 @@
+1507483219a:1:{s:23:"author-date/default.htm";a:5:{s:8:"fileName";s:23:"author-date/default.htm";s:7:"content";s:231:"<div class="author-date">
+	<a class="h6 post__author-name fn" href="{'profilo'page(false)}">James Spiegel</a>
+	<div class="post__date">
+		<time class="published" datetime="2017-03-24T18:18">
+			19 hours ago
+		</time>
+	</div>
+</div>";s:5:"mtime";i:1507208169;s:6:"markup";s:231:"<div class="author-date">
+	<a class="h6 post__author-name fn" href="{'profilo'page(false)}">James Spiegel</a>
+	<div class="post__date">
+		<time class="published" datetime="2017-03-24T18:18">
+			19 hours ago
+		</time>
+	</div>
+</div>";s:4:"code";N;}}

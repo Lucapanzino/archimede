@@ -1,0 +1,293 @@
+1507483219a:1:{s:25:"right-content/default.htm";a:5:{s:8:"fileName";s:25:"right-content/default.htm";s:7:"content";s:3751:"<!-- Right Sidebar -->
+
+<div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">Last Photos</h6>
+		</div>
+		<div class="ui-block-content">
+			<ul class="widget w-last-photo js-zoom-gallery">
+				{% for i in 0..8%}
+				<li>
+					<a href="#">
+						<img src="{{'assets/img/last-photo10-large.jpg'|theme}}" alt="photo">
+					</a>
+				</li>
+				{% endfor %}
+			
+			</ul>
+		</div>
+	</div>
+
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">Blog Posts</h6>
+		</div>
+		<ul class="widget w-blog-posts">
+			{% for i in 0..1 %}
+			<li>
+				<article class="hentry post">
+
+					<a href="#" class="h4">My Perfect Vacations in South America and Europe</a>
+
+					<p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod por incidid ut labore et.</p>
+
+					<div class="post__date">
+						<time class="published" datetime="2017-03-24T18:18">
+							7 hours ago
+						</time>
+					</div>
+
+				</article>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">Friends (86)</h6>
+		</div>
+		<div class="ui-block-content">
+			<ul class="widget w-faved-page js-zoom-gallery">
+				{% for i in 0..14 %}
+				<li>
+					<a href="#">
+						<img src="{{'assets/img/avatar17-sm.jpg'|theme}}" alt="author">
+					</a>
+				</li>
+				{% endfor %}
+				<li class="all-users">
+					<a href="#">+74</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">Favourite Pages</h6>
+		</div>
+
+		<ul class="widget w-friend-pages-added notification-list friend-requests">
+			{% for i in 0..5 %}
+				<li class="inline-items">
+					<div class="author-thumb">
+						<img src="{{'assets/img/avatar17-sm.jpg'|theme}}" alt="author">
+					</div>
+					<div class="notification-event">
+						<a href="#" class="h6 notification-friend">The Marina Bar</a>
+						<span class="chat-message-item">Restaurant / Bar</span>
+					</div>
+					<span class="notification-icon" data-toggle="tooltip" data-placement="top"   data-original-title="ADD TO YOUR FAVS">
+						<a href="#">
+							<i class="fa fa-star-o"></i>
+						</a>
+					</span>
+
+				</li>
+ 			{% endfor %}
+
+		</ul>
+
+	</div>
+
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">James's Poll</h6>
+		</div>
+		<div class="ui-block-content">
+			<ul class="widget w-pool">
+				<li>
+					<p>If you had to choose, which actor do you prefer to be the next Darkman? </p>
+				</li>
+				{% for i in 0..2 %}
+				<li>
+					<div class="skills-item">
+						<div class="skills-item-info">
+							<span class="skills-item-title">
+
+								<span class="radio">
+									<label>
+										<input type="radio" name="optionsRadios">
+									Thomas Bale
+									</label>
+								</span>
+							</span>
+							<span class="skills-item-count"><span class="count-animate" data-speed="1000" data-refresh-interval="50" data-to="62" data-from="0"></span><span class="units">62%</span></span>
+						</div>
+						<div class="skills-item-meter">
+							<span class="skills-item-meter-active bg-primary" style="width: 62%"></span>
+						</div>
+
+						<div class="counter-friends">12 friends voted for this</div>
+
+						<ul class="friends-harmonic">
+							{% for i in 0..11 %}
+							<li>
+								<a href="#">
+									<img src="{{'assets/img/friend-harmonic1.jpg'|theme}}" alt="friend">
+								</a>
+							</li>
+							{% endfor %}
+							<li>
+								<a href="#" class="all-users">+3</a>
+							</li>
+						</ul>
+
+					</div>
+				</li>
+				{% endfor %}
+			</ul>
+			<a href="#" class="btn btn-md-2 btn-border-think custom-color c-grey full-width">Vote Now!</a>
+		</div>
+	</div>
+</div>
+
+<!-- ... end Right Sidebar -->";s:5:"mtime";i:1507226253;s:6:"markup";s:3751:"<!-- Right Sidebar -->
+
+<div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">Last Photos</h6>
+		</div>
+		<div class="ui-block-content">
+			<ul class="widget w-last-photo js-zoom-gallery">
+				{% for i in 0..8%}
+				<li>
+					<a href="#">
+						<img src="{{'assets/img/last-photo10-large.jpg'|theme}}" alt="photo">
+					</a>
+				</li>
+				{% endfor %}
+			
+			</ul>
+		</div>
+	</div>
+
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">Blog Posts</h6>
+		</div>
+		<ul class="widget w-blog-posts">
+			{% for i in 0..1 %}
+			<li>
+				<article class="hentry post">
+
+					<a href="#" class="h4">My Perfect Vacations in South America and Europe</a>
+
+					<p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod por incidid ut labore et.</p>
+
+					<div class="post__date">
+						<time class="published" datetime="2017-03-24T18:18">
+							7 hours ago
+						</time>
+					</div>
+
+				</article>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">Friends (86)</h6>
+		</div>
+		<div class="ui-block-content">
+			<ul class="widget w-faved-page js-zoom-gallery">
+				{% for i in 0..14 %}
+				<li>
+					<a href="#">
+						<img src="{{'assets/img/avatar17-sm.jpg'|theme}}" alt="author">
+					</a>
+				</li>
+				{% endfor %}
+				<li class="all-users">
+					<a href="#">+74</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">Favourite Pages</h6>
+		</div>
+
+		<ul class="widget w-friend-pages-added notification-list friend-requests">
+			{% for i in 0..5 %}
+				<li class="inline-items">
+					<div class="author-thumb">
+						<img src="{{'assets/img/avatar17-sm.jpg'|theme}}" alt="author">
+					</div>
+					<div class="notification-event">
+						<a href="#" class="h6 notification-friend">The Marina Bar</a>
+						<span class="chat-message-item">Restaurant / Bar</span>
+					</div>
+					<span class="notification-icon" data-toggle="tooltip" data-placement="top"   data-original-title="ADD TO YOUR FAVS">
+						<a href="#">
+							<i class="fa fa-star-o"></i>
+						</a>
+					</span>
+
+				</li>
+ 			{% endfor %}
+
+		</ul>
+
+	</div>
+
+	<div class="ui-block">
+		<div class="ui-block-title">
+			<h6 class="title">James's Poll</h6>
+		</div>
+		<div class="ui-block-content">
+			<ul class="widget w-pool">
+				<li>
+					<p>If you had to choose, which actor do you prefer to be the next Darkman? </p>
+				</li>
+				{% for i in 0..2 %}
+				<li>
+					<div class="skills-item">
+						<div class="skills-item-info">
+							<span class="skills-item-title">
+
+								<span class="radio">
+									<label>
+										<input type="radio" name="optionsRadios">
+									Thomas Bale
+									</label>
+								</span>
+							</span>
+							<span class="skills-item-count"><span class="count-animate" data-speed="1000" data-refresh-interval="50" data-to="62" data-from="0"></span><span class="units">62%</span></span>
+						</div>
+						<div class="skills-item-meter">
+							<span class="skills-item-meter-active bg-primary" style="width: 62%"></span>
+						</div>
+
+						<div class="counter-friends">12 friends voted for this</div>
+
+						<ul class="friends-harmonic">
+							{% for i in 0..11 %}
+							<li>
+								<a href="#">
+									<img src="{{'assets/img/friend-harmonic1.jpg'|theme}}" alt="friend">
+								</a>
+							</li>
+							{% endfor %}
+							<li>
+								<a href="#" class="all-users">+3</a>
+							</li>
+						</ul>
+
+					</div>
+				</li>
+				{% endfor %}
+			</ul>
+			<a href="#" class="btn btn-md-2 btn-border-think custom-color c-grey full-width">Vote Now!</a>
+		</div>
+	</div>
+</div>
+
+<!-- ... end Right Sidebar -->";s:4:"code";N;}}

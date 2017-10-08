@@ -1,0 +1,33 @@
+1507483219a:1:{s:11:"default.htm";a:5:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:230:"description = "Archimede Layout"
+ ==
+<html>
+
+    <head>
+        {% partial 'style' %}
+    </head>
+
+    <body>
+        {% partial 'header' %}
+
+             {% page %}
+            
+        {% partial 'script' %}
+    </body>
+
+</html>";s:5:"mtime";i:1507199387;s:6:"markup";s:230:"description = "Archimede Layout"
+ ==
+<html>
+
+    <head>
+        {% partial 'style' %}
+    </head>
+
+    <body>
+        {% partial 'header' %}
+
+             {% page %}
+            
+        {% partial 'script' %}
+    </body>
+
+</html>";s:4:"code";N;}}

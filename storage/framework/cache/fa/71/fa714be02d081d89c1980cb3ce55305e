@@ -1,0 +1,235 @@
+1507207417a:1:{s:24:"fixedSidebar/default.htm";a:5:{s:8:"fileName";s:24:"fixedSidebar/default.htm";s:7:"content";s:4409:"<!-- Fixed Sidebar Left -->
+
+<div class="fixed-sidebar">
+	<div class="fixed-sidebar-left sidebar--small" id="sidebar-left">
+		<a href="02-ProfilePage.html" class="logo">
+			<img src="{{'assets/img/logo.png'|theme}}" alt="A">
+		</a>
+
+		<div class="mCustomScrollbar" data-mcs-theme="dark">
+			<ul class="left-menu">
+				<li>
+					<a href="#" class="js-sidebar-open">
+						<i class="fa fa-bars left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="homepage.html">
+						<i class="fa fa-home left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="news-letter.html">
+						<i class="fa fa-newspaper-o left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="about-us.html">
+						<i class="fa fa-users left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="archimede.html">
+						<i class="fa fa-user left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="note-legali.html">
+						<i class="fa fa-gavel left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="post.html">
+						<i class="fa fa-commenting-o left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+
+					</a>
+				</li>
+				<li>
+					<a href="profilo.html">
+						<i class="fa fa-cogs left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+ 					</a>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+
+	<div class="fixed-sidebar-left sidebar--large" id="sidebar-left-1">
+		<a href="02-ProfilePage.html" class="logo">
+			<img src="{{'assets/img/logo.png'|theme}}" alt="Archimede">
+			<h6 class="logo-title">Archimede</h6>
+		</a>
+
+		<div class="mCustomScrollbar" data-mcs-theme="dark">
+			<ul class="left-menu">
+				<li>
+					<a href="#" class="js-sidebar-open">
+						<i class="fa fa-times left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+						<span class="left-menu-title">Chiudi Menu</span>
+					</a>
+				</li>
+				<li>
+					<a href="homepage.html">
+						<i class="fa fa-home left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+						<span class="left-menu-title">Home page</span>
+					</a>
+				</li>
+				<li>
+					<a href="news-letter.html">
+						<i class="fa fa-newspaper-o left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+						<span class="left-menu-title">News letters</span>
+					</a>
+				</li>
+				<li>
+					<a href="about-us.html">
+						<i class="fa fa-users left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+						<span class="left-menu-title">Chi siamo</span>
+					</a>
+				</li>
+				<li>
+					<a href="archimede.html">
+						<i class="fa fa-user left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+						<span class="left-menu-title">Cos'è Archimede</span>
+					</a>
+				</li>
+				<li>
+					<a href="note-legali.html">
+						<i class="fa fa-gavel left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+						<span class="left-menu-title">Note legali</span>
+					</a>
+				</li>
+				<li>
+					<a href="post.html">
+						<i class="fa fa-commenting-o left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+						<span class="left-menu-title">Post</span>
+					</a>
+				</li>
+				<li>
+					<a href="profilo.html"> 
+							<i class="fa fa-cogs left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+						<span class="left-menu-title">Profilo</span>
+					</a>
+				</li>
+			  </ul>  
+		</div>
+	</div>
+</div>
+
+<!-- ... end Fixed Sidebar Left -->";s:5:"mtime";i:1507199761;s:6:"markup";s:4409:"<!-- Fixed Sidebar Left -->
+
+<div class="fixed-sidebar">
+	<div class="fixed-sidebar-left sidebar--small" id="sidebar-left">
+		<a href="02-ProfilePage.html" class="logo">
+			<img src="{{'assets/img/logo.png'|theme}}" alt="A">
+		</a>
+
+		<div class="mCustomScrollbar" data-mcs-theme="dark">
+			<ul class="left-menu">
+				<li>
+					<a href="#" class="js-sidebar-open">
+						<i class="fa fa-bars left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="homepage.html">
+						<i class="fa fa-home left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="news-letter.html">
+						<i class="fa fa-newspaper-o left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="about-us.html">
+						<i class="fa fa-users left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="archimede.html">
+						<i class="fa fa-user left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="note-legali.html">
+						<i class="fa fa-gavel left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="post.html">
+						<i class="fa fa-commenting-o left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+
+					</a>
+				</li>
+				<li>
+					<a href="profilo.html">
+						<i class="fa fa-cogs left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+ 					</a>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+
+	<div class="fixed-sidebar-left sidebar--large" id="sidebar-left-1">
+		<a href="02-ProfilePage.html" class="logo">
+			<img src="{{'assets/img/logo.png'|theme}}" alt="Archimede">
+			<h6 class="logo-title">Archimede</h6>
+		</a>
+
+		<div class="mCustomScrollbar" data-mcs-theme="dark">
+			<ul class="left-menu">
+				<li>
+					<a href="#" class="js-sidebar-open">
+						<i class="fa fa-times left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+						<span class="left-menu-title">Chiudi Menu</span>
+					</a>
+				</li>
+				<li>
+					<a href="homepage.html">
+						<i class="fa fa-home left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+						<span class="left-menu-title">Home page</span>
+					</a>
+				</li>
+				<li>
+					<a href="news-letter.html">
+						<i class="fa fa-newspaper-o left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+						<span class="left-menu-title">News letters</span>
+					</a>
+				</li>
+				<li>
+					<a href="about-us.html">
+						<i class="fa fa-users left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+						<span class="left-menu-title">Chi siamo</span>
+					</a>
+				</li>
+				<li>
+					<a href="archimede.html">
+						<i class="fa fa-user left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+						<span class="left-menu-title">Cos'è Archimede</span>
+					</a>
+				</li>
+				<li>
+					<a href="note-legali.html">
+						<i class="fa fa-gavel left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+						<span class="left-menu-title">Note legali</span>
+					</a>
+				</li>
+				<li>
+					<a href="post.html">
+						<i class="fa fa-commenting-o left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+						<span class="left-menu-title">Post</span>
+					</a>
+				</li>
+				<li>
+					<a href="profilo.html"> 
+							<i class="fa fa-cogs left-menu-icon" data-toggle="tooltip" data-placement="right" data-original-title="TITLE" aria-hidden="true"></i>
+						<span class="left-menu-title">Profilo</span>
+					</a>
+				</li>
+			  </ul>  
+		</div>
+	</div>
+</div>
+
+<!-- ... end Fixed Sidebar Left -->";s:4:"code";N;}}

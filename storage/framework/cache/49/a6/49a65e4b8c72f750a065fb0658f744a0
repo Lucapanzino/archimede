@@ -1,0 +1,133 @@
+1507207417a:1:{s:21:"topHeader/default.htm";a:5:{s:8:"fileName";s:21:"topHeader/default.htm";s:7:"content";s:1917:"<!-- Top Header -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="ui-block">
+				<div class="top-header">
+					<div class="top-header-thumb">
+						<img src="{{'assets/img/top-header1.jpg'|theme}}" alt="nature">
+					</div>
+					<div class="profile-section">
+						<div class="row">
+							<div class="col-lg-5 col-md-5 ">
+								<ul class="profile-menu">
+									<li>
+										<a href="{{'homepage'|page(false)}}" class="active">Home</a>
+									</li>
+									<li>
+										<a href="{{'about'|page(false)}}">Cos'è Archimede</a>
+									</li>
+									<li>
+										<a href="{{'newsletter'|page(false)}}">News letter</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-5 offset-lg-2 col-md-5 offset-md-2">
+								<ul class="profile-menu">
+									<li>
+										<a href="{{'post'|page({id:5})}}">Post</a>
+									</li>
+									<li>
+										<a href="{{'note-legali'|page(false)}}">Note Legali</a>
+									</li>
+									<li>
+										<div class="more">
+											<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+											<ul class="more-dropdown more-with-triangle">
+												<li>
+													<a href="{{'profilo'|page(false)}}">Funzionalità profilo</a>
+												</li>
+												<li>
+													<a href="#">Altro</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<div class="top-header-author">
+						<a href="{{'homepage'|page(false)}}" class="author-thumb">
+							<img src="{{'assets/img/author-main1.jpg'|theme}}" alt="author">
+						</a>
+						<div class="author-content">
+							<a href="{{'homepage'|page(false)}}" class="h4 author-name">Archimede</a>
+							<div class="country">Lorem Ipsum</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ... end Top Header -->";s:5:"mtime";i:1507205468;s:6:"markup";s:1917:"<!-- Top Header -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="ui-block">
+				<div class="top-header">
+					<div class="top-header-thumb">
+						<img src="{{'assets/img/top-header1.jpg'|theme}}" alt="nature">
+					</div>
+					<div class="profile-section">
+						<div class="row">
+							<div class="col-lg-5 col-md-5 ">
+								<ul class="profile-menu">
+									<li>
+										<a href="{{'homepage'|page(false)}}" class="active">Home</a>
+									</li>
+									<li>
+										<a href="{{'about'|page(false)}}">Cos'è Archimede</a>
+									</li>
+									<li>
+										<a href="{{'newsletter'|page(false)}}">News letter</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-5 offset-lg-2 col-md-5 offset-md-2">
+								<ul class="profile-menu">
+									<li>
+										<a href="{{'post'|page({id:5})}}">Post</a>
+									</li>
+									<li>
+										<a href="{{'note-legali'|page(false)}}">Note Legali</a>
+									</li>
+									<li>
+										<div class="more">
+											<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+											<ul class="more-dropdown more-with-triangle">
+												<li>
+													<a href="{{'profilo'|page(false)}}">Funzionalità profilo</a>
+												</li>
+												<li>
+													<a href="#">Altro</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<div class="top-header-author">
+						<a href="{{'homepage'|page(false)}}" class="author-thumb">
+							<img src="{{'assets/img/author-main1.jpg'|theme}}" alt="author">
+						</a>
+						<div class="author-content">
+							<a href="{{'homepage'|page(false)}}" class="h4 author-name">Archimede</a>
+							<div class="country">Lorem Ipsum</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ... end Top Header -->";s:4:"code";N;}}
