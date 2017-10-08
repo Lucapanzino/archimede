@@ -21,7 +21,9 @@
       margin: 0; }
 
 .header-content-wrapper {
-  height: 100%; }
+  height: 100%;
+  display: flex;
+  justify-content: flex-end; }
 
 .header-spacer {
   display: block;
