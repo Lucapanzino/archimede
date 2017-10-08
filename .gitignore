@@ -1,2 +1,6 @@
 .DS_Store
 *.log
+/*
+!/themes
+/themes/*
+!/themes/mythemename
