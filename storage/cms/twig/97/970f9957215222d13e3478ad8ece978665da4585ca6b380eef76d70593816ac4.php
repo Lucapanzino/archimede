@@ -29,7 +29,7 @@ class __TwigTemplate_b6a676535f1feee70f115376dabeb5b8c60a18ac2bc2f456876ff44253b
         unset($context['__cms_partial_params']);
         // line 5
         echo "
-\t<div class=\"more\"><i class=\"fa fa-ellipsis-h\" aria-hidden=\"true\"></i>
+\t<div class=\"more\"></i>
 \t\t<ul class=\"more-dropdown\">
 \t\t\t<li>
 \t\t\t\t<a href=\"#\">Edit Post</a>
@@ -79,7 +79,7 @@ class __TwigTemplate_b6a676535f1feee70f115376dabeb5b8c60a18ac2bc2f456876ff44253b
 
 \t{% partial 'author-date/default'%}
 
-\t<div class=\"more\"><i class=\"fa fa-ellipsis-h\" aria-hidden=\"true\"></i>
+\t<div class=\"more\"></i>
 \t\t<ul class=\"more-dropdown\">
 \t\t\t<li>
 \t\t\t\t<a href=\"#\">Edit Post</a>

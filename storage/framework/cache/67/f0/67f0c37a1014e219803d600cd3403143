@@ -1,9 +1,9 @@
-1507484529a:1:{s:24:"author-vcard/default.htm";a:5:{s:8:"fileName";s:24:"author-vcard/default.htm";s:7:"content";s:491:"<div class="post__author author vcard inline-items">
+1507485343a:1:{s:24:"author-vcard/default.htm";a:5:{s:8:"fileName";s:24:"author-vcard/default.htm";s:7:"content";s:444:"<div class="post__author author vcard inline-items">
 	<img src="{{'assets/img/author-page.jpg'|theme}}" alt="author">
 
 	{% partial 'author-date/default'%}
 
-	<div class="more"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+	<div class="more"></i>
 		<ul class="more-dropdown">
 			<li>
 				<a href="#">Edit Post</a>
@@ -20,12 +20,12 @@
 		</ul>
 	</div>
 
-</div>";s:5:"mtime";i:1507209752;s:6:"markup";s:491:"<div class="post__author author vcard inline-items">
+</div>";s:5:"mtime";i:1507484680;s:6:"markup";s:444:"<div class="post__author author vcard inline-items">
 	<img src="{{'assets/img/author-page.jpg'|theme}}" alt="author">
 
 	{% partial 'author-date/default'%}
 
-	<div class="more"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+	<div class="more"></i>
 		<ul class="more-dropdown">
 			<li>
 				<a href="#">Edit Post</a>

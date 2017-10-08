@@ -58,18 +58,13 @@ class __TwigTemplate_68d7efbb5cc9701a742104a2f71d8691682330c0c916f236a20c606ef36
 \t</p>
 
 \t<div class=\"post-additional-info inline-items\">
-
-\t\t<a href=\"#\" class=\"post-add-icon inline-items\">
-\t\t\t<i class=\"fa fa-heart-o\" aria-hidden=\"true\"></i>
-\t\t\t<span>8</span>
-\t\t</a>
-
+ 
 \t\t";
-        // line 41
+        // line 36
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("friends-armonic/default"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 42
+        // line 37
         echo "
 \t\t<div class=\"names-people-likes\">
 \t\t\t<a href=\"#\">Jenny</a>, <a href=\"#\">Robert</a> and
@@ -78,20 +73,20 @@ class __TwigTemplate_68d7efbb5cc9701a742104a2f71d8691682330c0c916f236a20c606ef36
 
 
 \t\t";
-        // line 49
+        // line 44
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("comment-shared/default"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 50
+        // line 45
         echo "
 \t</div>
 
 \t\t";
-        // line 53
+        // line 48
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("comment-buttons/default"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 54
+        // line 49
         echo "\t
 
 </article>";
@@ -109,7 +104,7 @@ class __TwigTemplate_68d7efbb5cc9701a742104a2f71d8691682330c0c916f236a20c606ef36
 
     public function getDebugInfo()
     {
-        return array (  95 => 54,  91 => 53,  86 => 50,  82 => 49,  73 => 42,  69 => 41,  33 => 7,  29 => 6,  24 => 4,  19 => 1,);
+        return array (  90 => 49,  86 => 48,  81 => 45,  77 => 44,  68 => 37,  64 => 36,  33 => 7,  29 => 6,  24 => 4,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -156,12 +151,7 @@ class __TwigTemplate_68d7efbb5cc9701a742104a2f71d8691682330c0c916f236a20c606ef36
 \t</p>
 
 \t<div class=\"post-additional-info inline-items\">
-
-\t\t<a href=\"#\" class=\"post-add-icon inline-items\">
-\t\t\t<i class=\"fa fa-heart-o\" aria-hidden=\"true\"></i>
-\t\t\t<span>8</span>
-\t\t</a>
-
+ 
 \t\t{% partial 'friends-armonic/default'%}
 
 \t\t<div class=\"names-people-likes\">

@@ -57,26 +57,18 @@ class __TwigTemplate_c365cf1f1e86ee123a9897d29278049cd226eb0058d2ea1b7929f4ea49f
         // line 22
         echo "\t\t\t\t\t\t\t<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium der doloremque laudantium.</p>
 
-\t\t\t\t\t\t\t<a href=\"#\" class=\"post-add-icon inline-items\">
-\t\t\t\t\t\t\t\t<i class=\"fa fa-heart-o\" aria-hidden=\"true\"></i>
-\t\t\t\t\t\t\t\t<span>8</span>
-\t\t\t\t\t\t\t</a>
 \t\t\t\t\t\t\t<a href=\"#\" class=\"reply\">Reply</a>
 \t\t\t\t\t\t</li>
 \t\t\t\t\t\t<li>
 \t\t\t\t\t\t\t";
-        // line 31
+        // line 27
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("author-vcard/default"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 32
+        // line 28
         echo "
 \t\t\t\t\t\t\t<p>Dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
-
-\t\t\t\t\t\t\t<a href=\"#\" class=\"post-add-icon inline-items\">
-\t\t\t\t\t\t\t\t<i class=\"fa fa-heart-o\" aria-hidden=\"true\"></i>
-\t\t\t\t\t\t\t\t<span>7</span>
-\t\t\t\t\t\t\t</a>
+ 
 \t\t\t\t\t\t\t<a href=\"#\" class=\"reply\">Reply</a>
 
 \t\t\t\t\t\t</li>
@@ -87,7 +79,7 @@ class __TwigTemplate_c365cf1f1e86ee123a9897d29278049cd226eb0058d2ea1b7929f4ea49f
 
 \t\t\t\t\t\t<div class=\"post__author author vcard inline-items\">
 \t\t\t\t\t\t\t<img src=\"";
-        // line 48
+        // line 40
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/img/author-page.jpg");
         echo "\" alt=\"author\">
 \t\t\t\t\t\t</div>
@@ -104,39 +96,35 @@ class __TwigTemplate_c365cf1f1e86ee123a9897d29278049cd226eb0058d2ea1b7929f4ea49f
 \t\t\t\t\t</form>
 \t\t\t\t</div>
 
-\t\t\t\t<div class=\"ui-block\">
+\t\t\t\t<!-- <div class=\"ui-block\">
 \t\t\t\t\t<article class=\"hentry post has-post-thumbnail shared-photo\">
 
 \t\t\t\t\t\t";
-        // line 66
+        // line 58
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("author-vcard/default"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 67
+        // line 59
         echo "
 \t\t\t\t\t\t<p>Hi! Everyone should check out these amazing photographs that my friend shot the past week. Here’s one of them...leave a kind comment!</p>
 
 \t\t\t\t\t\t<div class=\"post-thumb\">
 \t\t\t\t\t\t\t<img src=\"";
-        // line 71
+        // line 63
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/img/post-photo6.jpg");
         echo "\" alt=\"photo\">
 \t\t\t\t\t\t</div>
  
 
 \t\t\t\t\t\t<div class=\"post-additional-info inline-items\">
-
-\t\t\t\t\t\t\t<a href=\"#\" class=\"post-add-icon inline-items\">
-\t\t\t\t\t\t\t\t<i class=\"fa fa-heart-o\" aria-hidden=\"true\"></i>
-\t\t\t\t\t\t\t\t<span>15</span>
-\t\t\t\t\t\t\t</a>
+ 
 
 \t\t\t\t\t\t\t";
-        // line 82
+        // line 70
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("friends-armonic/default"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 83
+        // line 71
         echo "\t\t\t\t\t\t\t<div class=\"names-people-likes\">
 \t\t\t\t\t\t\t\t<a href=\"#\">Diana</a>, <a href=\"#\">Nicholas</a> and
 \t\t\t\t\t\t\t\t<br>13 more liked this
@@ -149,19 +137,14 @@ class __TwigTemplate_c365cf1f1e86ee123a9897d29278049cd226eb0058d2ea1b7929f4ea49f
 \t\t\t\t\t\t\t\t</a>
 
 \t\t\t\t\t\t\t\t<a href=\"#\" class=\"post-add-icon inline-items\">
-\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-share\" aria-hidden=\"true\"></i>
-\t\t\t\t\t\t\t\t\t<span>16</span>
+\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-pencil\" data-toggle=\"tooltip\" data-placement=\"right\" data-original-title=\"contribuisci\" aria-hidden=\"true\"></i> 
 \t\t\t\t\t\t\t\t</a>
 \t\t\t\t\t\t\t</div>
 
 \t\t\t\t\t\t</div>
 
 \t\t\t\t\t\t<div class=\"control-block-button post-control-button\">
-
-\t\t\t\t\t\t\t<a href=\"#\" class=\"btn btn-control\">
-\t\t\t\t\t\t\t\t<i class=\"fa fa-heart-o\" aria-hidden=\"true\"></i>
-\t\t\t\t\t\t\t</a>
-
+ 
 \t\t\t\t\t\t\t<a href=\"#\" class=\"btn btn-control\">
 \t\t\t\t\t\t\t\t<i class=\"fa fa-comments\" aria-hidden=\"true\"></i>
 \t\t\t\t\t\t\t</a>
@@ -173,7 +156,7 @@ class __TwigTemplate_c365cf1f1e86ee123a9897d29278049cd226eb0058d2ea1b7929f4ea49f
 \t\t\t\t\t\t</div>
 
 \t\t\t\t\t</article>
-\t\t\t\t</div>
+\t\t\t\t</div> -->
 
 \t\t\t</div>
 
@@ -185,22 +168,22 @@ class __TwigTemplate_c365cf1f1e86ee123a9897d29278049cd226eb0058d2ea1b7929f4ea49f
 \t\t<!-- left Content -->
 \t\t
 \t\t";
-        // line 130
+        // line 113
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("left-content/default"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 131
+        // line 114
         echo "\t\t
 \t\t<!-- ... end Right Content -->
 
 \t\t<!-- left Content -->
 \t\t
 \t\t";
-        // line 136
+        // line 119
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("right-content/default"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 137
+        // line 120
         echo "\t\t
 \t\t<!-- ... end Right Content -->
 
@@ -220,7 +203,7 @@ class __TwigTemplate_c365cf1f1e86ee123a9897d29278049cd226eb0058d2ea1b7929f4ea49f
 
     public function getDebugInfo()
     {
-        return array (  204 => 137,  200 => 136,  193 => 131,  189 => 130,  140 => 83,  136 => 82,  122 => 71,  116 => 67,  112 => 66,  91 => 48,  73 => 32,  69 => 31,  58 => 22,  54 => 21,  49 => 18,  45 => 17,  39 => 13,  35 => 12,  23 => 2,  19 => 1,);
+        return array (  187 => 120,  183 => 119,  176 => 114,  172 => 113,  128 => 71,  124 => 70,  114 => 63,  108 => 59,  104 => 58,  83 => 40,  69 => 28,  65 => 27,  58 => 22,  54 => 21,  49 => 18,  45 => 17,  39 => 13,  35 => 12,  23 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -256,21 +239,13 @@ class __TwigTemplate_c365cf1f1e86ee123a9897d29278049cd226eb0058d2ea1b7929f4ea49f
 \t\t\t\t\t\t\t{% partial 'author-vcard/default'%}
 \t\t\t\t\t\t\t<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium der doloremque laudantium.</p>
 
-\t\t\t\t\t\t\t<a href=\"#\" class=\"post-add-icon inline-items\">
-\t\t\t\t\t\t\t\t<i class=\"fa fa-heart-o\" aria-hidden=\"true\"></i>
-\t\t\t\t\t\t\t\t<span>8</span>
-\t\t\t\t\t\t\t</a>
 \t\t\t\t\t\t\t<a href=\"#\" class=\"reply\">Reply</a>
 \t\t\t\t\t\t</li>
 \t\t\t\t\t\t<li>
 \t\t\t\t\t\t\t{% partial 'author-vcard/default'%}
 
 \t\t\t\t\t\t\t<p>Dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
-
-\t\t\t\t\t\t\t<a href=\"#\" class=\"post-add-icon inline-items\">
-\t\t\t\t\t\t\t\t<i class=\"fa fa-heart-o\" aria-hidden=\"true\"></i>
-\t\t\t\t\t\t\t\t<span>7</span>
-\t\t\t\t\t\t\t</a>
+ 
 \t\t\t\t\t\t\t<a href=\"#\" class=\"reply\">Reply</a>
 
 \t\t\t\t\t\t</li>
@@ -295,7 +270,7 @@ class __TwigTemplate_c365cf1f1e86ee123a9897d29278049cd226eb0058d2ea1b7929f4ea49f
 \t\t\t\t\t</form>
 \t\t\t\t</div>
 
-\t\t\t\t<div class=\"ui-block\">
+\t\t\t\t<!-- <div class=\"ui-block\">
 \t\t\t\t\t<article class=\"hentry post has-post-thumbnail shared-photo\">
 
 \t\t\t\t\t\t{% partial 'author-vcard/default'%}
@@ -308,11 +283,7 @@ class __TwigTemplate_c365cf1f1e86ee123a9897d29278049cd226eb0058d2ea1b7929f4ea49f
  
 
 \t\t\t\t\t\t<div class=\"post-additional-info inline-items\">
-
-\t\t\t\t\t\t\t<a href=\"#\" class=\"post-add-icon inline-items\">
-\t\t\t\t\t\t\t\t<i class=\"fa fa-heart-o\" aria-hidden=\"true\"></i>
-\t\t\t\t\t\t\t\t<span>15</span>
-\t\t\t\t\t\t\t</a>
+ 
 
 \t\t\t\t\t\t\t{% partial 'friends-armonic/default'%}
 \t\t\t\t\t\t\t<div class=\"names-people-likes\">
@@ -327,19 +298,14 @@ class __TwigTemplate_c365cf1f1e86ee123a9897d29278049cd226eb0058d2ea1b7929f4ea49f
 \t\t\t\t\t\t\t\t</a>
 
 \t\t\t\t\t\t\t\t<a href=\"#\" class=\"post-add-icon inline-items\">
-\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-share\" aria-hidden=\"true\"></i>
-\t\t\t\t\t\t\t\t\t<span>16</span>
+\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-pencil\" data-toggle=\"tooltip\" data-placement=\"right\" data-original-title=\"contribuisci\" aria-hidden=\"true\"></i> 
 \t\t\t\t\t\t\t\t</a>
 \t\t\t\t\t\t\t</div>
 
 \t\t\t\t\t\t</div>
 
 \t\t\t\t\t\t<div class=\"control-block-button post-control-button\">
-
-\t\t\t\t\t\t\t<a href=\"#\" class=\"btn btn-control\">
-\t\t\t\t\t\t\t\t<i class=\"fa fa-heart-o\" aria-hidden=\"true\"></i>
-\t\t\t\t\t\t\t</a>
-
+ 
 \t\t\t\t\t\t\t<a href=\"#\" class=\"btn btn-control\">
 \t\t\t\t\t\t\t\t<i class=\"fa fa-comments\" aria-hidden=\"true\"></i>
 \t\t\t\t\t\t\t</a>
@@ -351,7 +317,7 @@ class __TwigTemplate_c365cf1f1e86ee123a9897d29278049cd226eb0058d2ea1b7929f4ea49f
 \t\t\t\t\t\t</div>
 
 \t\t\t\t\t</article>
-\t\t\t\t</div>
+\t\t\t\t</div> -->
 
 \t\t\t</div>
 
