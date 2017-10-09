@@ -755,7 +755,8 @@
   .top-header-author {
     position: relative;
     bottom: 20px;
-    color: #888da8; }
+    color: #888da8;
+z-index: 1;}
     .top-header-author .author-name {
       color: #515365; }
   .top-header-author {
