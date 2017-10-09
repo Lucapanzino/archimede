@@ -4,24 +4,6 @@
 		<img src="{{'assets/img/author-page.jpg'|theme}}" alt="author">
 		
 		{% partial 'author-date/default'%}
-		
-
-		<div class="more"></i>
-			<ul class="more-dropdown">
-				<li>
-					<a href="#">Edit Post</a>
-				</li>
-				<li>
-					<a href="#">Delete Post</a>
-				</li>
-				<li>
-					<a href="#">Turn Off Notifications</a>
-				</li>
-				<li>
-					<a href="#">Select as Featured</a>
-				</li>
-			</ul>
-		</div>
 
 	</div>
 
@@ -33,19 +15,17 @@
 
 	<div class="post-additional-info inline-items">
  
+		
+ 		
+		{% partial 'like-reactions/default'%}
+		
 		{% partial 'friends-armonic/default'%}
-
-		<div class="names-people-likes">
-			<a href="#">Jenny</a>, <a href="#">Robert</a> and
-			<br>6 more liked this
-		</div>
-
-
+		
 		{% partial 'comment-shared/default'%}
-
+		
+		
 	</div>
 
 		{% partial 'comment-buttons/default'%}
 	
-
 </article>

@@ -30,25 +30,7 @@ class __TwigTemplate_68d7efbb5cc9701a742104a2f71d8691682330c0c916f236a20c606ef36
         echo $this->env->getExtension('CMS')->partialFunction("author-date/default"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
         // line 7
-        echo "\t\t
-
-\t\t<div class=\"more\"></i>
-\t\t\t<ul class=\"more-dropdown\">
-\t\t\t\t<li>
-\t\t\t\t\t<a href=\"#\">Edit Post</a>
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\t<a href=\"#\">Delete Post</a>
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\t<a href=\"#\">Turn Off Notifications</a>
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\t<a href=\"#\">Select as Featured</a>
-\t\t\t\t</li>
-\t\t\t</ul>
-\t\t</div>
-
+        echo "
 \t</div>
 
 \t<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
@@ -59,36 +41,39 @@ class __TwigTemplate_68d7efbb5cc9701a742104a2f71d8691682330c0c916f236a20c606ef36
 
 \t<div class=\"post-additional-info inline-items\">
  
+\t\t
+ \t\t
 \t\t";
-        // line 36
+        // line 20
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('CMS')->partialFunction("like-reactions/default"        , $context['__cms_partial_params']        );
+        unset($context['__cms_partial_params']);
+        // line 21
+        echo "\t\t
+\t\t";
+        // line 22
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("friends-armonic/default"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 37
-        echo "
-\t\t<div class=\"names-people-likes\">
-\t\t\t<a href=\"#\">Jenny</a>, <a href=\"#\">Robert</a> and
-\t\t\t<br>6 more liked this
-\t\t</div>
-
-
+        // line 23
+        echo "\t\t
 \t\t";
-        // line 44
+        // line 24
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("comment-shared/default"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 45
-        echo "
+        // line 25
+        echo "\t\t
+\t\t
 \t</div>
 
 \t\t";
-        // line 48
+        // line 29
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("comment-buttons/default"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 49
+        // line 30
         echo "\t
-
 </article>";
     }
 
@@ -104,7 +89,7 @@ class __TwigTemplate_68d7efbb5cc9701a742104a2f71d8691682330c0c916f236a20c606ef36
 
     public function getDebugInfo()
     {
-        return array (  90 => 49,  86 => 48,  81 => 45,  77 => 44,  68 => 37,  64 => 36,  33 => 7,  29 => 6,  24 => 4,  19 => 1,);
+        return array (  76 => 30,  72 => 29,  66 => 25,  62 => 24,  59 => 23,  55 => 22,  52 => 21,  48 => 20,  33 => 7,  29 => 6,  24 => 4,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -123,24 +108,6 @@ class __TwigTemplate_68d7efbb5cc9701a742104a2f71d8691682330c0c916f236a20c606ef36
 \t\t<img src=\"{{'assets/img/author-page.jpg'|theme}}\" alt=\"author\">
 \t\t
 \t\t{% partial 'author-date/default'%}
-\t\t
-
-\t\t<div class=\"more\"></i>
-\t\t\t<ul class=\"more-dropdown\">
-\t\t\t\t<li>
-\t\t\t\t\t<a href=\"#\">Edit Post</a>
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\t<a href=\"#\">Delete Post</a>
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\t<a href=\"#\">Turn Off Notifications</a>
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\t<a href=\"#\">Select as Featured</a>
-\t\t\t\t</li>
-\t\t\t</ul>
-\t\t</div>
 
 \t</div>
 
@@ -152,21 +119,19 @@ class __TwigTemplate_68d7efbb5cc9701a742104a2f71d8691682330c0c916f236a20c606ef36
 
 \t<div class=\"post-additional-info inline-items\">
  
+\t\t
+ \t\t
+\t\t{% partial 'like-reactions/default'%}
+\t\t
 \t\t{% partial 'friends-armonic/default'%}
-
-\t\t<div class=\"names-people-likes\">
-\t\t\t<a href=\"#\">Jenny</a>, <a href=\"#\">Robert</a> and
-\t\t\t<br>6 more liked this
-\t\t</div>
-
-
+\t\t
 \t\t{% partial 'comment-shared/default'%}
-
+\t\t
+\t\t
 \t</div>
 
 \t\t{% partial 'comment-buttons/default'%}
 \t
-
 </article>", "/Applications/MAMP/htdocs/archimede_copy/themes/archimede/partials/entry-post/default.htm", "");
     }
 }

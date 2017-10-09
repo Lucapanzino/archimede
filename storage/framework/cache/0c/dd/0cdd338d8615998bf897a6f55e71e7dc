@@ -1,4 +1,4 @@
-1507487766a:1:{s:27:"friends-armonic/default.htm";a:5:{s:8:"fileName";s:27:"friends-armonic/default.htm";s:7:"content";s:350:"<div class="comments-shared">
+1507540937a:1:{s:27:"friends-armonic/default.htm";a:5:{s:8:"fileName";s:27:"friends-armonic/default.htm";s:7:"content";s:464:"<div class="comments-shared">
 	<a href="#" class="post-add-icon inline-items">
 		<i class="fa fa-comment-o" aria-hidden="true"></i>
 		<span>17</span>
@@ -8,7 +8,11 @@
 		<i class="fa fa-pencil" data-toggle="tooltip" data-placement="right" data-original-title="contribuisci" aria-hidden="true"></i> 
 	</a>
 </div>
-";s:5:"mtime";i:1507485111;s:6:"markup";s:349:"<div class="comments-shared">
+
+<div class="names-people-likes">
+	<a href="#">Jenny</a>, <a href="#">Robert</a> and
+	<br>6 more liked this
+</div>";s:5:"mtime";i:1507538904;s:6:"markup";s:464:"<div class="comments-shared">
 	<a href="#" class="post-add-icon inline-items">
 		<i class="fa fa-comment-o" aria-hidden="true"></i>
 		<span>17</span>
@@ -17,4 +21,9 @@
 	<a href="#" class="post-add-icon inline-items">
 		<i class="fa fa-pencil" data-toggle="tooltip" data-placement="right" data-original-title="contribuisci" aria-hidden="true"></i> 
 	</a>
+</div>
+
+<div class="names-people-likes">
+	<a href="#">Jenny</a>, <a href="#">Robert</a> and
+	<br>6 more liked this
 </div>";s:4:"code";N;}}

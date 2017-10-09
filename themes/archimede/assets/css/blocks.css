@@ -3959,7 +3959,11 @@ ol ol li {
 
 .post-additional-info {
   padding: 20px 0 0;
-  border-top: 1px solid #e6ecf5; }
+  border-top: 1px solid #e6ecf5;
+    /* custom */
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;}
   .post-additional-info > * {
     margin-right: 15px; }
     .post-additional-info > *:last-child {
@@ -6032,4 +6036,5 @@ ol ol li {
     font-size: 2.5em;
     padding-top: 6px;
 }
-/* ====================== */
+
+/* Reactions like buttons popup */

@@ -76,6 +76,12 @@ class __TwigTemplate_2865c321517700ef1b2b45c46168f5e4223db48b02000f6b637a1fc7d93
 <script src=\"";
         // line 31
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/mediaelement-playlist-plugin.min.js");
+        echo "\"></script>
+
+<!-- Reactions box -->
+<script src=\"";
+        // line 34
+        echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/reactions.js");
         echo "\"></script>";
     }
 
@@ -91,7 +97,7 @@ class __TwigTemplate_2865c321517700ef1b2b45c46168f5e4223db48b02000f6b637a1fc7d93
 
     public function getDebugInfo()
     {
-        return array (  78 => 31,  74 => 30,  69 => 28,  63 => 25,  57 => 22,  51 => 19,  46 => 17,  41 => 15,  36 => 13,  22 => 2,  19 => 1,);
+        return array (  84 => 34,  78 => 31,  74 => 30,  69 => 28,  63 => 25,  57 => 22,  51 => 19,  46 => 17,  41 => 15,  36 => 13,  22 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -134,6 +140,9 @@ class __TwigTemplate_2865c321517700ef1b2b45c46168f5e4223db48b02000f6b637a1fc7d93
 <script src=\"{{'assets/js/jquery.magnific-popup.min.js'|theme}}\"></script>
 
 <script src=\"{{'assets/js/mediaelement-and-player.min.js'|theme}}\"></script>
-<script src=\"{{'assets/js/mediaelement-playlist-plugin.min.js'|theme}}\"></script>", "/Applications/MAMP/htdocs/archimede_copy/themes/archimede/partials/script.htm", "");
+<script src=\"{{'assets/js/mediaelement-playlist-plugin.min.js'|theme}}\"></script>
+
+<!-- Reactions box -->
+<script src=\"{{'assets/js/reactions.js'|theme}}\"></script>", "/Applications/MAMP/htdocs/archimede_copy/themes/archimede/partials/script.htm", "");
     }
 }

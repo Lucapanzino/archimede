@@ -25,6 +25,11 @@ class __TwigTemplate_d9f79baff36225f2555c13aaee406a0bca916ea02c09d9f34ea2968bb30
 \t<a href=\"#\" class=\"post-add-icon inline-items\">
 \t\t<i class=\"fa fa-pencil\" data-toggle=\"tooltip\" data-placement=\"right\" data-original-title=\"contribuisci\" aria-hidden=\"true\"></i> 
 \t</a>
+</div>
+
+<div class=\"names-people-likes\">
+\t<a href=\"#\">Jenny</a>, <a href=\"#\">Robert</a> and
+\t<br>6 more liked this
 </div>";
     }
 
@@ -57,6 +62,11 @@ class __TwigTemplate_d9f79baff36225f2555c13aaee406a0bca916ea02c09d9f34ea2968bb30
 \t<a href=\"#\" class=\"post-add-icon inline-items\">
 \t\t<i class=\"fa fa-pencil\" data-toggle=\"tooltip\" data-placement=\"right\" data-original-title=\"contribuisci\" aria-hidden=\"true\"></i> 
 \t</a>
+</div>
+
+<div class=\"names-people-likes\">
+\t<a href=\"#\">Jenny</a>, <a href=\"#\">Robert</a> and
+\t<br>6 more liked this
 </div>", "/Applications/MAMP/htdocs/archimede_copy/themes/archimede/partials/friends-armonic/default.htm", "");
     }
 }
