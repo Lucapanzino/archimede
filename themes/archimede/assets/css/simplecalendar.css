@@ -5,6 +5,9 @@
 .calendar-container {
     position: relative;
     width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
 }
 
 .calendar .card {
