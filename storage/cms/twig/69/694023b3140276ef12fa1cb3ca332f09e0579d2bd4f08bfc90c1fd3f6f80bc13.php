@@ -42,7 +42,7 @@ class __TwigTemplate_52c75bcdba74e6573adb8a6a62f10b98384e49904e2e2b5deddfd9c9657
 \t\t\t\t\t\t\t\t\t<li>
 \t\t\t\t\t\t\t\t\t\t<a href=\"";
         // line 19
-        echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("about", false);
+        echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("archimede-description", false);
         echo "\">Cos'è Archimede</a>
 \t\t\t\t\t\t\t\t\t</li>
 \t\t\t\t\t\t\t\t\t<li>
@@ -158,7 +158,7 @@ class __TwigTemplate_52c75bcdba74e6573adb8a6a62f10b98384e49904e2e2b5deddfd9c9657
 \t\t\t\t\t\t\t\t\t\t<a href=\"{{'homepage'|page(false)}}\" class=\"active\">Home</a>
 \t\t\t\t\t\t\t\t\t</li>
 \t\t\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t\t\t<a href=\"{{'about'|page(false)}}\">Cos'è Archimede</a>
+\t\t\t\t\t\t\t\t\t\t<a href=\"{{'archimede-description'|page(false)}}\">Cos'è Archimede</a>
 \t\t\t\t\t\t\t\t\t</li>
 \t\t\t\t\t\t\t\t\t<li>
 \t\t\t\t\t\t\t\t\t\t<a href=\"{{'newsletter'|page(false)}}\">News letter</a>
