@@ -1,4 +1,4 @@
-1507546148a:1:{s:10:"script.htm";a:5:{s:8:"fileName";s:10:"script.htm";s:7:"content";s:1184:"<!-- Main Font -->
+1507546596a:1:{s:10:"script.htm";a:5:{s:8:"fileName";s:10:"script.htm";s:7:"content";s:1274:"<!-- Main Font -->
 <script src="{{'assets/js/webfontloader.min.js'|theme}}"></script>
 <script>
     WebFont.load({
@@ -31,7 +31,10 @@
 <script src="{{'assets/js/mediaelement-playlist-plugin.min.js'|theme}}"></script>
 
 <!-- Reactions box -->
-<script src="{{'assets/js/reactions.js'|theme}}"></script>";s:5:"mtime";i:1507537976;s:6:"markup";s:1184:"<!-- Main Font -->
+<script src="{{'assets/js/reactions.js'|theme}}"></script>
+
+<!-- Simple calendar -->
+<script src="{{'assets/js/simplecalendar.js'|theme}}"></script>";s:5:"mtime";i:1507545929;s:6:"markup";s:1274:"<!-- Main Font -->
 <script src="{{'assets/js/webfontloader.min.js'|theme}}"></script>
 <script>
     WebFont.load({
@@ -64,4 +67,7 @@
 <script src="{{'assets/js/mediaelement-playlist-plugin.min.js'|theme}}"></script>
 
 <!-- Reactions box -->
-<script src="{{'assets/js/reactions.js'|theme}}"></script>";s:4:"code";N;}}
+<script src="{{'assets/js/reactions.js'|theme}}"></script>
+
+<!-- Simple calendar -->
+<script src="{{'assets/js/simplecalendar.js'|theme}}"></script>";s:4:"code";N;}}

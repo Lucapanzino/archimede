@@ -1,4 +1,4 @@
-1507546148a:1:{s:9:"style.htm";a:5:{s:8:"fileName";s:9:"style.htm";s:7:"content";s:1561:"
+1507546596a:1:{s:9:"style.htm";a:5:{s:8:"fileName";s:9:"style.htm";s:7:"content";s:721:"
 <link
     href="{{ [
         'assets/Bootstrap/dist/css/bootstrap-reboot.css',
@@ -13,29 +13,14 @@
         'assets/css/mediaelementplayer.css',
         'assets/css/magnific-popup.css',
         'assets/css/reaction.css',
+        'assets/css/simplecalendar.css',
         '~/modules/system/assets/css/framework.extras.css'
         ]|theme }}"
     rel="stylesheet">
     
     
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-reboot.css">
-	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-grid.css">
-
-	<!-- Theme Styles CSS -->
-	<link rel="stylesheet" type="text/css" href="css/theme-styles.css">
-	<link rel="stylesheet" type="text/css" href="css/blocks.css">
-	<link rel="stylesheet" type="text/css" href="css/fonts.css">
-
-	<!-- Styles for plugins -->
-	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
-	<link rel="stylesheet" type="text/css" href="css/mediaelement-playlist-plugin.min.css">
-	<link rel="stylesheet" type="text/css" href="css/mediaelementplayer.css">
-
-	<!-- Lightbox popup script-->
-	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">";s:5:"mtime";i:1507539760;s:6:"markup";s:1560:"<link
+";s:5:"mtime";i:1507545987;s:6:"markup";s:708:"<link
     href="{{ [
         'assets/Bootstrap/dist/css/bootstrap-reboot.css',
         'assets/Bootstrap/dist/css/bootstrap.css',
@@ -49,26 +34,7 @@
         'assets/css/mediaelementplayer.css',
         'assets/css/magnific-popup.css',
         'assets/css/reaction.css',
+        'assets/css/simplecalendar.css',
         '~/modules/system/assets/css/framework.extras.css'
         ]|theme }}"
-    rel="stylesheet">
-    
-    
-
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-reboot.css">
-	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-grid.css">
-
-	<!-- Theme Styles CSS -->
-	<link rel="stylesheet" type="text/css" href="css/theme-styles.css">
-	<link rel="stylesheet" type="text/css" href="css/blocks.css">
-	<link rel="stylesheet" type="text/css" href="css/fonts.css">
-
-	<!-- Styles for plugins -->
-	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
-	<link rel="stylesheet" type="text/css" href="css/mediaelement-playlist-plugin.min.css">
-	<link rel="stylesheet" type="text/css" href="css/mediaelementplayer.css">
-
-	<!-- Lightbox popup script-->
-	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">";s:4:"code";N;}}
+    rel="stylesheet">";s:4:"code";N;}}
