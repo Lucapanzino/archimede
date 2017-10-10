@@ -18,8 +18,11 @@ class __TwigTemplate_7fca83c9285d747637614deaff5cb11421e44e08d33bf9614d4798133e5
         // line 1
         echo "<div class=\"control-block-button post-control-button\">
 
-\t<a href=\"#\" class=\"btn btn-control featured-post\">
-\t\t<i class=\"fa fa-trophy\" aria-hidden=\"true\"></i>
+\t<a href=\"";
+        // line 3
+        echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("singolo-post", array("id" => 5));
+        echo "\" class=\"btn btn-control featured-post\">
+\t\t<i class=\"fa fa-eye\" data-toggle=\"tooltip\" data-placement=\"right\" data-original-title=\"vedi post\" aria-hidden=\"true\"></i>
 \t</a>
 
 \t<a href=\"#\" class=\"btn btn-control\">
@@ -42,9 +45,14 @@ class __TwigTemplate_7fca83c9285d747637614deaff5cb11421e44e08d33bf9614d4798133e5
         return "/Applications/MAMP/htdocs/archimede_copy/themes/archimede/partials/comment-buttons/default.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  19 => 1,);
+        return array (  23 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -59,8 +67,8 @@ class __TwigTemplate_7fca83c9285d747637614deaff5cb11421e44e08d33bf9614d4798133e5
     {
         return new Twig_Source("<div class=\"control-block-button post-control-button\">
 
-\t<a href=\"#\" class=\"btn btn-control featured-post\">
-\t\t<i class=\"fa fa-trophy\" aria-hidden=\"true\"></i>
+\t<a href=\"{{'singolo-post'|page({id:5})}}\" class=\"btn btn-control featured-post\">
+\t\t<i class=\"fa fa-eye\" data-toggle=\"tooltip\" data-placement=\"right\" data-original-title=\"vedi post\" aria-hidden=\"true\"></i>
 \t</a>
 
 \t<a href=\"#\" class=\"btn btn-control\">

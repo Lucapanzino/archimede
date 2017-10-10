@@ -1,0 +1,43 @@
+<div class="widget w-wethear">
+	<a href="#" class="more"><i class="fa fa-ellipsis-h"></i></a>
+
+	<div class="wethear-now inline-items">
+		<div class="temperature-sensor">64°</div>
+		<div class="max-min-temperature">
+			<span>58°</span>
+			<span>76°</span>
+		</div>
+
+		<i class="fa fa-sun-o fa-cloud"></i>
+	</div>
+
+	<div class="wethear-now-description">
+		<div class="climate">Partly Sunny</div>
+		<span>Real Feel: <span>67°</span></span>
+		<span>Chance of Rain: <span>49%</span></span>
+	</div>
+
+	<ul class="weekly-forecast">
+        {% for i in 0..3%}
+		<li>
+			<div class="day">sun</div>
+			<i class="fa fa-sun-o"></i>
+			<div class="temperature-sensor-day">60°</div>
+		</li>
+
+		<li>
+			<div class="day">mon</div>
+			<i class="fa fa-cloud"></i>
+			<div class="temperature-sensor-day">58°</div>
+		</li>
+
+		{% endfor %}
+
+	</ul>
+
+	<div class="date-and-place">
+		<h5 class="date">Saturday, March 26th</h5>
+		<div class="place">San Francisco, CA</div>
+	</div>
+
+</div>

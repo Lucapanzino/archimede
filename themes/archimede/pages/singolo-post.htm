@@ -1,5 +1,5 @@
 title = "singolo post"
-url = "/singolo-post/:id"
+url = "/post/:id"
 layout = "default"
 is_hidden = 0
 ==
@@ -12,46 +12,13 @@ is_hidden = 0
 		<!-- Main Content -->
 
 		<div class="col-xl-6 push-xl-3 col-lg-12 push-lg-0 col-md-12 col-sm-12 col-xs-12">
-			<div id="newsfeed-items-grid">
+			 
 				<h1>Post Title</h1>
 				<div class="ui-block">
-					{% partial 'entry-post/default'%}
-
-					<ul class="comments-list">
-						<li>
-							{% partial 'author-vcard/default'%}
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium der doloremque laudantium.</p>
- 
-						</li>
-						<li>
-							{% partial 'author-vcard/default'%}
-
-							<p>Dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
-  
-
-						</li>
-					</ul>
-
-					<a href="#" class="more-comments">View more comments <span>+</span></a>
-					<form class="comment-form inline-items">
-
-						<div class="post__author author vcard inline-items">
-							<img src="{{'assets/img/author-page.jpg'|theme}}" alt="author">
-						</div>
-
-						<div class="form-group with-icon-right ">
-							<textarea class="form-control" placeholder=""  ></textarea>
-							<div class="add-options-message">
-								<a href="#" class="options-message" data-toggle="modal" data-target="#update-header-photo">
-									<i class="fa fa-camera"></i>
-								</a>
-							</div>
-							<span class="material-input"></span></div>
-
-					</form>
+				   {% partial 'post/default'%}
 				</div>
 
-			</div>
+		 
 
 			<a id="load-more-button" href="#" class="btn btn-control btn-more" data-load-link="items-to-load.html" data-container="newsfeed-items-grid"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
 		</div>

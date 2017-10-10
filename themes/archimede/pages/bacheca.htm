@@ -14,31 +14,7 @@ is_hidden = 0
         <div class="container">
            <div class="row">
                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                   <div class="ui-block responsive-flex">
-                       <div class="ui-block-title">
-                           <div class="h6 title">James’s Blog Posts</div>
-                           <div class="w-select">
-                               <div class="title">Order By:</div>
-                               <fieldset class="form-group">
-                                   <select class="selectpicker form-control" size="auto">
-                                       <option value="DA">Date (Descending)</option>
-                                       <option value="NU">Number of Likes</option>
-                                       <option value="NU">Number of Shared</option>
-                                   </select>
-                               </fieldset>
-                           </div>
-        
-                           <form class="w-search">
-                               <div class="form-group with-button">
-                                   <input class="form-control" type="text" placeholder="Search Blog Posts...">
-                                   <button>
-                                       <svg class="olymp-magnifying-glass-icon"><use xlink:href="icons/icons.svg#olymp-magnifying-glass-icon"></use></svg>
-                                   </button>
-                               </div>
-                           </form>
-                           <a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="icons/icons.svg#olymp-three-dots-icon"></use></svg></a>
-                       </div>
-                   </div>
+                   {% partial 'post-search/default'%}
                </div>
            </div>
         </div>
@@ -52,41 +28,11 @@ is_hidden = 0
                
                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                    {% for i in 0..1 %}
-                   <div class="ui-block">
-                       <article class="hentry post has-post-thumbnail thumb-full-width">
-                           {% partial 'author-vcard/default'%}
-         
-        
-                           <div class="post-thumb">
-                               <img src="{{'assets/img/post-thumb5.jpg'|theme}}" alt="author">
-                           </div>
-        
-                           <a href="#" data-toggle="modal" data-target="#blog-post-popup" class="h2 post-title">I’ve Tasted the Most Perfect Icecream in the World!</a>
-        
-                           <p>Lorem ipsum dolor sit amet, consectadipisicing elit, sed do eiusmod por incidid ut labore et
-                               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud lorem exercitation ullamco laboris
-                               nisi ut aliquip ex ea commodo consequat.
-                           </p>
-        
-                           <p>
-                               Duis en aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                               pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                               mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-                               et quasi architecto beatae vitae dicta sunt explicabo.
-                           </p>
-        
-                           <p>
-                               Nemo enim ipsam voluptatem quia voluptas sit aspernatu...
-                           </p>
-        
-                           <a href="#" data-toggle="modal" data-target="#blog-post-popup" class="btn btn-md-2 btn-border-think c-grey btn-transparent custom-color">Read More</a>
-        
-                         {% partial 'comment-buttons/default'%}  
-        
-                       </article>
-                   </div>
-                   {% endfor %}
+				   
+	                   <div class="ui-block"> 
+	                      {% partial 'post/default'%} 
+	                   </div>
+				   {% endfor %}
                </div>
         
               {% endfor %}
