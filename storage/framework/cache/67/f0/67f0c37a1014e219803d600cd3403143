@@ -1,4 +1,4 @@
-1507546632a:1:{s:24:"author-vcard/default.htm";a:5:{s:8:"fileName";s:24:"author-vcard/default.htm";s:7:"content";s:444:"<div class="post__author author vcard inline-items">
+1507624897a:1:{s:24:"author-vcard/default.htm";a:5:{s:8:"fileName";s:24:"author-vcard/default.htm";s:7:"content";s:444:"<div class="post__author author vcard inline-items">
 	<img src="{{'assets/img/author-page.jpg'|theme}}" alt="author">
 
 	{% partial 'author-date/default'%}
