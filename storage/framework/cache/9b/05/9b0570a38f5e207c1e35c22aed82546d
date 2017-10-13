@@ -1,33 +1,35 @@
-1507632193a:1:{s:34:"page-header-responsive/default.htm";a:5:{s:8:"fileName";s:34:"page-header-responsive/default.htm";s:7:"content";s:459:"<!-- Responsive Header -->
+1507898246a:1:{s:34:"page-header-responsive/default.htm";a:5:{s:8:"fileName";s:34:"page-header-responsive/default.htm";s:7:"content";s:543:"<!-- Responsive Header -->
 
 <header class="header header-responsive" id="site-header-responsive">
 
 	<div class="header-content-wrapper">
-		<ul class="nav nav-tabs mobile-app-tabs" role="tablist">
-			 <li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="#search" role="tab">
+		<form class="search-bar w-search notification-list friend-requests">
+			<div class="form-group with-button">
+				<input class="form-control js-user-search" placeholder="Search here people or pages..." type="text">
+				<button>
 					<i class="fa fa-search" aria-hidden="true"></i>
-				</a>
-			</li>
-		</ul>
+				</button>
+			</div>
+		</form> 
 	</div>
 
 </header>
 
 <!-- ... end Responsive Header -->
 
-<div class="header-spacer"></div>";s:5:"mtime";i:1507206297;s:6:"markup";s:459:"<!-- Responsive Header -->
+<div class="header-spacer"></div>";s:5:"mtime";i:1507896947;s:6:"markup";s:543:"<!-- Responsive Header -->
 
 <header class="header header-responsive" id="site-header-responsive">
 
 	<div class="header-content-wrapper">
-		<ul class="nav nav-tabs mobile-app-tabs" role="tablist">
-			 <li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="#search" role="tab">
+		<form class="search-bar w-search notification-list friend-requests">
+			<div class="form-group with-button">
+				<input class="form-control js-user-search" placeholder="Search here people or pages..." type="text">
+				<button>
 					<i class="fa fa-search" aria-hidden="true"></i>
-				</a>
-			</li>
-		</ul>
+				</button>
+			</div>
+		</form> 
 	</div>
 
 </header>

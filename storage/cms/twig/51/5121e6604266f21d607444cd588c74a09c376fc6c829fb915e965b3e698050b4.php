@@ -21,13 +21,14 @@ class __TwigTemplate_7e11e4d04a4c36826bc86a2dd577895da61d689c93ed4419316e3d25153
 <header class=\"header header-responsive\" id=\"site-header-responsive\">
 
 \t<div class=\"header-content-wrapper\">
-\t\t<ul class=\"nav nav-tabs mobile-app-tabs\" role=\"tablist\">
-\t\t\t <li class=\"nav-item\">
-\t\t\t\t<a class=\"nav-link\" data-toggle=\"tab\" href=\"#search\" role=\"tab\">
+\t\t<form class=\"search-bar w-search notification-list friend-requests\">
+\t\t\t<div class=\"form-group with-button\">
+\t\t\t\t<input class=\"form-control js-user-search\" placeholder=\"Search here people or pages...\" type=\"text\">
+\t\t\t\t<button>
 \t\t\t\t\t<i class=\"fa fa-search\" aria-hidden=\"true\"></i>
-\t\t\t\t</a>
-\t\t\t</li>
-\t\t</ul>
+\t\t\t\t</button>
+\t\t\t</div>
+\t\t</form> 
 \t</div>
 
 </header>
@@ -62,13 +63,14 @@ class __TwigTemplate_7e11e4d04a4c36826bc86a2dd577895da61d689c93ed4419316e3d25153
 <header class=\"header header-responsive\" id=\"site-header-responsive\">
 
 \t<div class=\"header-content-wrapper\">
-\t\t<ul class=\"nav nav-tabs mobile-app-tabs\" role=\"tablist\">
-\t\t\t <li class=\"nav-item\">
-\t\t\t\t<a class=\"nav-link\" data-toggle=\"tab\" href=\"#search\" role=\"tab\">
+\t\t<form class=\"search-bar w-search notification-list friend-requests\">
+\t\t\t<div class=\"form-group with-button\">
+\t\t\t\t<input class=\"form-control js-user-search\" placeholder=\"Search here people or pages...\" type=\"text\">
+\t\t\t\t<button>
 \t\t\t\t\t<i class=\"fa fa-search\" aria-hidden=\"true\"></i>
-\t\t\t\t</a>
-\t\t\t</li>
-\t\t</ul>
+\t\t\t\t</button>
+\t\t\t</div>
+\t\t</form> 
 \t</div>
 
 </header>

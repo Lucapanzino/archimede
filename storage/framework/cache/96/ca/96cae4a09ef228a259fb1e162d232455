@@ -1,4 +1,4 @@
-1507632209a:1:{s:26:"comment-shared/default.htm";a:5:{s:8:"fileName";s:26:"comment-shared/default.htm";s:7:"content";s:176:"<ul class="friends-harmonic">
+1507897563a:1:{s:26:"comment-shared/default.htm";a:5:{s:8:"fileName";s:26:"comment-shared/default.htm";s:7:"content";s:176:"<ul class="friends-harmonic">
 	{% for i in 0..6 %}
 	<li>
 		<a href="#">
