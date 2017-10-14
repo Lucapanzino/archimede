@@ -1,4 +1,4 @@
-1507898246a:1:{s:23:"page-header/default.htm";a:5:{s:8:"fileName";s:23:"page-header/default.htm";s:7:"content";s:543:"<!-- Header -->
+1507975123a:1:{s:23:"page-header/default.htm";a:5:{s:8:"fileName";s:23:"page-header/default.htm";s:7:"content";s:591:"<!-- Header -->
 
 <header class="header" id="site-header">
 
@@ -16,12 +16,12 @@
 			</div>
 		</form> 
 
-
+     {% partial 'header-author-vcard/default' %}
 	</div>
 
 </header>
 
-<!-- ... end Header -->";s:5:"mtime";i:1507897096;s:6:"markup";s:543:"<!-- Header -->
+<!-- ... end Header -->";s:5:"mtime";i:1507973845;s:6:"markup";s:591:"<!-- Header -->
 
 <header class="header" id="site-header">
 
@@ -39,7 +39,7 @@
 			</div>
 		</form> 
 
-
+     {% partial 'header-author-vcard/default' %}
 	</div>
 
 </header>

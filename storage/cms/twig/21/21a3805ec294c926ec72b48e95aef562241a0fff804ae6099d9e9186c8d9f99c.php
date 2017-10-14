@@ -37,8 +37,13 @@ class __TwigTemplate_fe192f9a6128cf011e4b65a964278a3d898af6b69c0faa0790370d1a1e1
 \t\t\t</div>
 \t\t</form> 
 
-
-\t</div>
+     ";
+        // line 19
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('CMS')->partialFunction("header-author-vcard/default"        , $context['__cms_partial_params']        );
+        unset($context['__cms_partial_params']);
+        // line 20
+        echo "\t</div>
 
 </header>
 
@@ -57,7 +62,7 @@ class __TwigTemplate_fe192f9a6128cf011e4b65a964278a3d898af6b69c0faa0790370d1a1e1
 
     public function getDebugInfo()
     {
-        return array (  26 => 6,  19 => 1,);
+        return array (  46 => 20,  42 => 19,  26 => 6,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -88,7 +93,7 @@ class __TwigTemplate_fe192f9a6128cf011e4b65a964278a3d898af6b69c0faa0790370d1a1e1
 \t\t\t</div>
 \t\t</form> 
 
-
+     {% partial 'header-author-vcard/default' %}
 \t</div>
 
 </header>

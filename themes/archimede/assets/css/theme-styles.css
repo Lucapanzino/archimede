@@ -1381,3 +1381,7 @@ blockquote {
       blockquote p {
         font-size: 16px; } }
 
+.header-vcard>a{
+    color: #777;
+    padding-top: 22px;
+}
